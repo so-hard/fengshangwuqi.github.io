@@ -7,6 +7,6 @@ exports.translation = {
   readMore: '阅读全文',
   prev: '上一页',
   next: '下一页',
-  NotFound: '握草，你咋进来的？',
+  NotFound: '哥，你咋进来了？',
   share: '分享：',
 };
