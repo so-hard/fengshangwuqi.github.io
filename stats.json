@@ -1,180 +1,53 @@
 {
   "assetsByChunkName": {
-    "path---react": [
-      "path---react-a18cd607986d82acd203.js",
-      "path---react-a18cd607986d82acd203.js.map"
-    ],
-    "path---2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi": [
-      "path---2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi-b62a940059f84c7e0fb0.js",
-      "path---2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi-b62a940059f84c7e0fb0.js.map"
-    ],
-    "path---front-end": [
-      "path---front-end-328347b62ba1c3769e40.js",
-      "path---front-end-328347b62ba1c3769e40.js.map"
-    ],
-    "path---ubuntu": [
-      "path---ubuntu-470b660d25da1de49d60.js",
-      "path---ubuntu-470b660d25da1de49d60.js.map"
-    ],
-    "path---2017-08-08-css-zi-ding-yi-shu-xing-shi-yong-js-he-bu-shi-yong-js": [
-      "path---2017-08-08-css-zi-ding-yi-shu-xing-shi-yong-js-he-bu-shi-yong-js-6b832aa9ec0a332cd5c5.js",
-      "path---2017-08-08-css-zi-ding-yi-shu-xing-shi-yong-js-he-bu-shi-yong-js-6b832aa9ec0a332cd5c5.js.map"
-    ],
-    "path---vim": [
-      "path---vim-9a23e8036a6d0c0a4b7e.js",
-      "path---vim-9a23e8036a6d0c0a4b7e.js.map"
-    ],
-    "path---git": [
-      "path---git-4e0c10b9fb5b90f6c09a.js",
-      "path---git-4e0c10b9fb5b90f6c09a.js.map"
-    ],
-    "path---linux": [
-      "path---linux-8de7dbbbf140bf76c846.js",
-      "path---linux-8de7dbbbf140bf76c846.js.map"
-    ],
-    "component---src-pages-index-js": [
-      "component---src-pages-index-js-fe80ad00b5c74a2c5b28.js",
-      "component---src-pages-index-js-fe80ad00b5c74a2c5b28.js.map"
-    ],
-    "path---zsh": [
-      "path---zsh-9e90a532b631363b024a.js",
-      "path---zsh-9e90a532b631363b024a.js.map"
-    ],
-    "path---react-router-4": [
-      "path---react-router-4-c6aad07678edc8d0b2ec.js",
-      "path---react-router-4-c6aad07678edc8d0b2ec.js.map"
-    ],
-    "component---src-templates-tag-index-js": [
-      "component---src-templates-tag-index-js-56ba814706b3ffb2d9f2.js",
-      "component---src-templates-tag-index-js-56ba814706b3ffb2d9f2.js.map"
-    ],
-    "path---html-5": [
-      "path---html-5-87056056c2139a2c9dce.js",
-      "path---html-5-87056056c2139a2c9dce.js.map"
-    ],
-    "path---": [
-      "path----557518bd178906f8d58a.js",
-      "path----557518bd178906f8d58a.js.map"
-    ],
-    "path---context": [
-      "path---context-edd8896679b5a797d3a0.js",
-      "path---context-edd8896679b5a797d3a0.js.map"
-    ],
-    "path---we-chat-mini-program": [
-      "path---we-chat-mini-program-1a5ee1b99180d676e878.js",
-      "path---we-chat-mini-program-1a5ee1b99180d676e878.js.map"
-    ],
-    "path---archives": [
-      "path---archives-602c93466b5e607865b3.js",
-      "path---archives-602c93466b5e607865b3.js.map"
-    ],
-    "path---2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi": [
-      "path---2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi-782c937c2d4c09fbb367.js",
-      "path---2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi-782c937c2d4c09fbb367.js.map"
-    ],
-    "path---css": [
-      "path---css-80c10acbbb02348bdd49.js",
-      "path---css-80c10acbbb02348bdd49.js.map"
-    ],
-    "path---2017-04-09-ru-he-gao-xiao-di-shi-yong-git": [
-      "path---2017-04-09-ru-he-gao-xiao-di-shi-yong-git-5b8e929c13a3012fd56b.js",
-      "path---2017-04-09-ru-he-gao-xiao-di-shi-yong-git-5b8e929c13a3012fd56b.js.map"
-    ],
-    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
-    "path---2017-08-17-ni-bu-zhi-dao-de-react-router-4": [
-      "path---2017-08-17-ni-bu-zhi-dao-de-react-router-4-aa73386ddab951bd9a88.js",
-      "path---2017-08-17-ni-bu-zhi-dao-de-react-router-4-aa73386ddab951bd9a88.js.map"
-    ],
-    "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-c63704485a798b06eeb3.js",
-      "component---src-layouts-index-js-c63704485a798b06eeb3.js.map"
-    ],
-    "path---2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog": [
-      "path---2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog-219c18567c8047d5c822.js",
-      "path---2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog-219c18567c8047d5c822.js.map"
-    ],
-    "path---dialog": [
-      "path---dialog-f67dc621bc9f34a0ef49.js",
-      "path---dialog-f67dc621bc9f34a0ef49.js.map"
-    ],
-    "path---index": [
-      "path---index-34be4b734acdf9e3fb15.js",
-      "path---index-34be4b734acdf9e3fb15.js.map"
-    ],
-    "path---2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai": [
-      "path---2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai-5a7c5369af5e7d1cad1f.js",
-      "path---2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai-5a7c5369af5e7d1cad1f.js.map"
-    ],
-    "path---track": [
-      "path---track-2e832db2113b33df06f6.js",
-      "path---track-2e832db2113b33df06f6.js.map"
-    ],
-    "component---src-pages-404-js": [
-      "component---src-pages-404-js-771bf2627afde59b6070.js",
-      "component---src-pages-404-js-771bf2627afde59b6070.js.map"
-    ],
+    "path---react": "path---react-a18cd607986d82acd203.js",
+    "path---2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi": "path---2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi-b62a940059f84c7e0fb0.js",
+    "path---front-end": "path---front-end-328347b62ba1c3769e40.js",
+    "path---ubuntu": "path---ubuntu-470b660d25da1de49d60.js",
+    "path---2017-08-08-css-zi-ding-yi-shu-xing-shi-yong-js-he-bu-shi-yong-js": "path---2017-08-08-css-zi-ding-yi-shu-xing-shi-yong-js-he-bu-shi-yong-js-6b832aa9ec0a332cd5c5.js",
+    "path---vim": "path---vim-9a23e8036a6d0c0a4b7e.js",
+    "path---git": "path---git-4e0c10b9fb5b90f6c09a.js",
+    "path---linux": "path---linux-8de7dbbbf140bf76c846.js",
+    "component---src-pages-index-js": "component---src-pages-index-js-fe80ad00b5c74a2c5b28.js",
+    "path---zsh": "path---zsh-9e90a532b631363b024a.js",
+    "path---react-router-4": "path---react-router-4-c6aad07678edc8d0b2ec.js",
+    "component---src-templates-tag-index-js": "component---src-templates-tag-index-js-56ba814706b3ffb2d9f2.js",
+    "path---html-5": "path---html-5-87056056c2139a2c9dce.js",
+    "path---": "path----557518bd178906f8d58a.js",
+    "path---context": "path---context-edd8896679b5a797d3a0.js",
+    "path---we-chat-mini-program": "path---we-chat-mini-program-1a5ee1b99180d676e878.js",
+    "path---archives": "path---archives-602c93466b5e607865b3.js",
+    "path---2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi": "path---2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi-782c937c2d4c09fbb367.js",
+    "path---css": "path---css-80c10acbbb02348bdd49.js",
+    "path---2017-04-09-ru-he-gao-xiao-di-shi-yong-git": "path---2017-04-09-ru-he-gao-xiao-di-shi-yong-git-5b8e929c13a3012fd56b.js",
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+    "path---2017-08-17-ni-bu-zhi-dao-de-react-router-4": "path---2017-08-17-ni-bu-zhi-dao-de-react-router-4-aa73386ddab951bd9a88.js",
+    "component---src-layouts-index-js": "component---src-layouts-index-js-3d3d6f7ee2540277691d.js",
+    "path---2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog": "path---2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog-219c18567c8047d5c822.js",
+    "path---dialog": "path---dialog-f67dc621bc9f34a0ef49.js",
+    "path---index": "path---index-34be4b734acdf9e3fb15.js",
+    "path---2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai": "path---2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai-5a7c5369af5e7d1cad1f.js",
+    "path---track": "path---track-2e832db2113b33df06f6.js",
+    "component---src-pages-404-js": "component---src-pages-404-js-771bf2627afde59b6070.js",
     "commons": [
-      "commons-07689d44f46f7f2015b0.js",
-      "build-js-styles.css",
-      "commons-07689d44f46f7f2015b0.js.map",
-      "build-js-styles.css.map"
+      "commons-5d727b979d2c411a5c1a.js",
+      "build-js-styles.css"
     ],
-    "path---404-html": [
-      "path---404-html-a0e39f21c11f6a62c5ab.js",
-      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-templates-archive-index-js": [
-      "component---src-templates-archive-index-js-77613cd82a64e750e31b.js",
-      "component---src-templates-archive-index-js-77613cd82a64e750e31b.js.map"
-    ],
-    "path---2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan": [
-      "path---2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan-e452f990cba110db60f6.js",
-      "path---2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan-e452f990cba110db60f6.js.map"
-    ],
-    "path---2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi": [
-      "path---2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi-59711a5bd8837e3eb95e.js",
-      "path---2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi-59711a5bd8837e3eb95e.js.map"
-    ],
-    "path---offline-plugin-app-shell-fallback": [
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---code-editor": [
-      "path---code-editor-acfaba3bf0686c897f3c.js",
-      "path---code-editor-acfaba3bf0686c897f3c.js.map"
-    ],
-    "path---2018-01-19-shi-yong-css-zhui-zong-yong-hu": [
-      "path---2018-01-19-shi-yong-css-zhui-zong-yong-hu-a9019d9ef0111b44382c.js",
-      "path---2018-01-19-shi-yong-css-zhui-zong-yong-hu-a9019d9ef0111b44382c.js.map"
-    ],
-    "component---src-templates-post-index-js": [
-      "component---src-templates-post-index-js-52dde8dd59bcfd083d28.js",
-      "component---src-templates-post-index-js-52dde8dd59bcfd083d28.js.map"
-    ],
+    "path---404-html": "path---404-html-a0e39f21c11f6a62c5ab.js",
+    "component---src-templates-archive-index-js": "component---src-templates-archive-index-js-77613cd82a64e750e31b.js",
+    "path---2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan": "path---2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan-e452f990cba110db60f6.js",
+    "path---2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi": "path---2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi-59711a5bd8837e3eb95e.js",
+    "path---offline-plugin-app-shell-fallback": "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+    "path---code-editor": "path---code-editor-acfaba3bf0686c897f3c.js",
+    "path---2018-01-19-shi-yong-css-zhui-zong-yong-hu": "path---2018-01-19-shi-yong-css-zhui-zong-yong-hu-a9019d9ef0111b44382c.js",
+    "component---src-templates-post-index-js": "component---src-templates-post-index-js-52dde8dd59bcfd083d28.js",
     "app": [
       "app-3c45ac268a5e8934da0e.js",
-      "build-js-styles.css",
-      "app-3c45ac268a5e8934da0e.js.map",
-      "build-js-styles.css.map"
+      "build-js-styles.css"
     ],
-    "path---animation": [
-      "path---animation-644baec509c74e38f908.js",
-      "path---animation-644baec509c74e38f908.js.map"
-    ],
-    "path---2018-02-01-react-xin-de-context-api": [
-      "path---2018-02-01-react-xin-de-context-api-5e39a69837393c6eb9e0.js",
-      "path---2018-02-01-react-xin-de-context-api-5e39a69837393c6eb9e0.js.map"
-    ],
-    "path---404": [
-      "path---404-a0e39f21c11f6a62c5ab.js",
-      "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---tmux": [
-      "path---tmux-37c424fbdada43150cef.js",
-      "path---tmux-37c424fbdada43150cef.js.map"
-    ]
+    "path---animation": "path---animation-644baec509c74e38f908.js",
+    "path---2018-02-01-react-xin-de-context-api": "path---2018-02-01-react-xin-de-context-api-f80634712d9ebadb7cc2.js",
+    "path---404": "path---404-a0e39f21c11f6a62c5ab.js",
+    "path---tmux": "path---tmux-37c424fbdada43150cef.js"
   }
 }
