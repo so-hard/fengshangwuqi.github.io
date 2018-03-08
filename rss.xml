@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io/fswq-blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 08 Mar 2018 05:04:53 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io/fswq-blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 08 Mar 2018 15:40:12 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。下面，我们就一起通过一个实例来看看 chrome 扩展开发。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这个实例不是很复杂，是我之前一直想做的，就是 &lt;strong&gt;通过 chrome 扩展来同步每日阅读的不错的前端资讯&lt;/strong&gt;。相信大家也有清晰地感受到，前端社区在诸多社区中可谓最为活跃的，所以，坚持筛选学习的内容是比较考验耐心，也是尤为重要的，相对微信公众号，twitter 和 newsletter 等方式，个人感觉 chrome 扩展也不失为一种友好的方式。&lt;/p&gt;
@@ -259,7 +259,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/new-7a39364d0a5281cfd8a1b60392002c66-4b150.png&quot;
+    href=&quot;/fswq-blog/static/new-71ee54b6f1821a4e9125af6682f9ea47-1b41d.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -267,22 +267,22 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 615px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 77.39837398373983%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACrklEQVQ4y6VTS08TURSeH+RKiAsjBk1cqUFCdKGJW7ea+EfcYIhiFBR1YRSIJPKKBowYDS1NB7BqC9POdDrtvN+dx+e5t61i3Gi8zZfvnnPuuXO+e06FM9M7YBidLvVB9oMSxh6XMf6kjIuzZVwgXKJ9zyfi/KyI0ftFjDzcxdl7BVy/NYUbN6dwbnILwsmnMk49UzD06ADDM4cYIpyYPcTEvIJrSyrGXymYWFBwebGJK4Srr5sYe9nA8HMVp+/uYOL2DEbubOHYCwPHJ4sQFkQF86KMjWaItw0P72Sf2MeK5GG55mGF4aDHzF6uulhrRFhcL2F9bgHvqzpW5S42JB9LdJcgFyuobe4BMQA3BxyClxGIwUB7JIT01z5PkEhVMpkf/XjGzwiBlsKshGjtW5DLbWgVG16zC/swRhQlCKIIfhAiCCOEcczZ80OEaUbx+GcsCChOtlCXatgVRf6dnP3SvPexvF/UkZXnDPlRD7cHvjSlCm16H3XbgFHy0Cm4aH9yoH120N52YR24VIEH13FgWzZHp92GaZrwXIpbFgyDcnUDLtkxKRCCwIeu6zzo2DaxyZP0TgeWafUSiZmPsU3nGLOcIAjQ7XZ/g1Ddr2Bt6Q1UWcX/Li5Z33MgrbZRX+2gvtJB66MDXaYqqUJN1WD2JTFpDknXWhqhxX2mYRLrvFrP86hJEV2oa/hW3UeYUPlZTANApYNxjDiJkGUZujF56HCapFwWS2TM3mwglS12VpBECZtzH2B/D5EYgF+jUSH4X+nKdkrJNCJhSBfSGIW9PZPGLk2SpO+n0fL9XoWBEUIt61B2NTS+KKgXm5AKChoFFbpk8eYMpJlMJnWYPQNjm5rI9qz7jH3Ph5DStMcZfZWJTUlC3gf/6+T/1BQu+ciM/rEGg/w3YIfZU/wA/5tSxmbEf3cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 84%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADJUlEQVQ4y62S3WscZRTG569Sa4RK8Cai4oWK2CCIIAZEsF4qeKuod35cqVijrV6o1ba2oCRNpflotJuYbrJNCLubnY+d753vzezMz7Mzm8WKFwrO8ux53vO+8845z3mUW9s7bGzvcmu7KdidYm2ryc1Gk9WtCYSvyZnr6zu89eFZnn/1DC8uvMb8/MvMPXOWVx6Y5Y2FWZTZ928w8/keM5/cYebTZoUHhc99uccT51s8KnFucY/HvqrxuOTmFg84/dkeD8nZ0+c7LJz7jQtvvsvrHy2jPPJ2i9mLfU6d63DqC8Fih/sFT36n8sJVg6d/0DhzWefZSxrPXdIrPn9Z5eFvVO67oPHUO9d47+Mf+eC2x0tLDsq333e5cnDEqpmwJljVBWrCjV7C9W7MylGNE17FXsrKvs1PX19jY2WTJT1nqSvvdCOU/attdq80KFo59EYQlVAKL46BvOZjUAhGE16StZqk7UPqZ3JeoARSlbru0P7VQN9y0fYtbMfBth0sy8FxXCzhtkTTsmXtYRh9bM/HHQS41b5d5UzTRrFbtnw3Jy+PyfKUKArJkow0SUnjtIpxFJPECUmUTHNJHDMcDknTtN6T9Zgr5oHO75sbuL7L//EovjrgzsW7aKsOwX6GuxNj/hLiNRL8nQT39hgR5nKAsxnhNmIiGVwYBQTSchAEDPwBnudJdzKUNMrwjQCzKzp0RIcjG6stmvVEG+HaoUG/YzLQA0JLLnMS4iCWiwaEQSiXDipJwjCsW7ZNk26nPSm4nJZeVr+i+v9PLXuHIcbyAGctwdtNcaTVSMuIkpAojGQAyUT4uopYYiK5ccyP8/rjZTmFYuoara275HEhNpJkXlaFlkVZYzSJkxeKopjiHyvUOg30JdHwZ/FUM8b5I8Ral/XNgL5U3l+RAW3HlU6xiO65tfhjhEHtw4HvV9VnaSbGDkR81UY9VDF6fSzNRm8bmKqF2TPxTB/HdHHEvP2xoS0LX0xtmVZtapmB2Tdlz8CXi5Xh8Jg0E0PHUWXUv47kZEhFWTDKR/doddLy33NKlmWMkVTiZ/cOexLHh0ej0b+a8p/iEdvmsMGe9QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;news&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/new-7a39364d0a5281cfd8a1b60392002c66-4b150.png&quot;
-        srcset=&quot;/fswq-blog/static/new-7a39364d0a5281cfd8a1b60392002c66-c6416.png 165w,
-/fswq-blog/static/new-7a39364d0a5281cfd8a1b60392002c66-80504.png 330w,
-/fswq-blog/static/new-7a39364d0a5281cfd8a1b60392002c66-4b150.png 615w&quot;
-        sizes=&quot;(max-width: 615px) 100vw, 615px&quot;
+        src=&quot;/fswq-blog/static/new-71ee54b6f1821a4e9125af6682f9ea47-1b41d.png&quot;
+        srcset=&quot;/fswq-blog/static/new-71ee54b6f1821a4e9125af6682f9ea47-34259.png 165w,
+/fswq-blog/static/new-71ee54b6f1821a4e9125af6682f9ea47-db1ea.png 330w,
+/fswq-blog/static/new-71ee54b6f1821a4e9125af6682f9ea47-1b41d.png 650w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
