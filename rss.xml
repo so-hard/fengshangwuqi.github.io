@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io/fswq-blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 09 Mar 2018 05:21:22 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 09 Mar 2018 17:28:02 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。下面，我们就一起通过一个实例来看看 chrome 扩展开发。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这个实例不是很复杂，是我之前一直想做的，就是 &lt;strong&gt;通过 chrome 扩展来同步每日阅读的不错的前端资讯&lt;/strong&gt;。相信大家也有清晰地感受到，前端社区在诸多社区中可谓最为活跃的，所以，坚持筛选学习的内容是比较考验耐心，也是尤为重要的，相对微信公众号，twitter 和 newsletter 等方式，个人感觉 chrome 扩展也不失为一种友好的方式。&lt;/p&gt;
@@ -223,7 +223,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png&quot;
+    href=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -242,11 +242,11 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;inspect&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-5902b.png 165w,
-/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-f6c9c.png 330w,
-/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png 660w,
-/fswq-blog/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png 738w&quot;
+        src=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png&quot;
+        srcset=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-5902b.png 165w,
+/static/inspect-ba9b75079421fa6cbd667c459a53427c-f6c9c.png 330w,
+/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png 660w,
+/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png 738w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -259,7 +259,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
+    href=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -278,10 +278,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;news&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
-        srcset=&quot;/fswq-blog/static/new-61db88de1e134e51fa3cbfc646e50447-c89fe.png 165w,
-/fswq-blog/static/new-61db88de1e134e51fa3cbfc646e50447-35529.png 330w,
-/fswq-blog/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png 585w&quot;
+        src=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
+        srcset=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-c89fe.png 165w,
+/static/new-61db88de1e134e51fa3cbfc646e50447-35529.png 330w,
+/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png 585w&quot;
         sizes=&quot;(max-width: 585px) 100vw, 585px&quot;
       /&gt;
     &lt;/span&gt;
@@ -298,7 +298,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;li&gt;添加新功能，例如查看全部等；&lt;/li&gt;
 &lt;li&gt;…&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;目前该 &lt;a href=&quot;https://chrome.google.com/webstore/detail/front-end-news/dcijaoifeaaafbdglmalaajeedcamogg&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;扩展&lt;/a&gt; 初始版本已发布，点击前面的链接可查看更多，如果大伙中有人感兴趣，&lt;a href=&quot;https://github.com/FengShangWuQi/chrome-Daily-Front-End-news&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;chrome-Daily-Front-End-news&lt;/a&gt; 仓库期待收到你的 PR，&lt;a href=&quot;https://github.com/FengShangWuQi/Daily-Front-End-News&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Daily-Front-End-News&lt;/a&gt; 同上。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React ⚛️ 新的 Context API]]></title><description><![CDATA[这不再是一个  实验性的 API ，并且它更符合工程化的理念，目前它已成为  React 一级棒的 API 。 ⚠️ ：大家可以通过  newsletter  获取我最新的资讯，我一般每两周通过邮件发送一次，大家可以通过自己的收件箱获取更多的内容。 React…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-02-01-react-xin-de-context-api/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-02-01-react-xin-de-context-api/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;目前该 &lt;a href=&quot;https://chrome.google.com/webstore/detail/front-end-news/dcijaoifeaaafbdglmalaajeedcamogg&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;扩展&lt;/a&gt; 初始版本已发布，点击前面的链接可查看更多，如果大伙中有人感兴趣，&lt;a href=&quot;https://github.com/FengShangWuQi/chrome-Daily-Front-End-news&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;chrome-Daily-Front-End-news&lt;/a&gt; 仓库期待收到你的 PR，&lt;a href=&quot;https://github.com/FengShangWuQi/Daily-Front-End-News&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Daily-Front-End-News&lt;/a&gt; 同上。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React ⚛️ 新的 Context API]]></title><description><![CDATA[这不再是一个  实验性的 API ，并且它更符合工程化的理念，目前它已成为  React 一级棒的 API 。 ⚠️ ：大家可以通过  newsletter  获取我最新的资讯，我一般每两周通过邮件发送一次，大家可以通过自己的收件箱获取更多的内容。 React…]]></description><link>https://fengshangwuqi.github.io/2018-02-01-react-xin-de-context-api/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-02-01-react-xin-de-context-api/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -319,7 +319,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-b9936.png&quot;
+    href=&quot;/static/API-c35b793fa67380a56edba68e746ca472-b9936.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -338,11 +338,11 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;API&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-5902b.png 165w,
-/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-f6c9c.png 330w,
-/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-73c38.png 660w,
-/fswq-blog/static/API-c35b793fa67380a56edba68e746ca472-b9936.png 748w&quot;
+        src=&quot;/static/API-c35b793fa67380a56edba68e746ca472-73c38.png&quot;
+        srcset=&quot;/static/API-c35b793fa67380a56edba68e746ca472-5902b.png 165w,
+/static/API-c35b793fa67380a56edba68e746ca472-f6c9c.png 330w,
+/static/API-c35b793fa67380a56edba68e746ca472-73c38.png 660w,
+/static/API-c35b793fa67380a56edba68e746ca472-b9936.png 748w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -405,7 +405,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
+    href=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -424,10 +424,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;practice&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
-        srcset=&quot;/fswq-blog/static/practice-10fcc983644e66d2d824bd1430d25227-70084.png 165w,
-/fswq-blog/static/practice-10fcc983644e66d2d824bd1430d25227-1b591.png 330w,
-/fswq-blog/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png 404w&quot;
+        src=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
+        srcset=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-70084.png 165w,
+/static/practice-10fcc983644e66d2d824bd1430d25227-1b591.png 330w,
+/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png 404w&quot;
         sizes=&quot;(max-width: 404px) 100vw, 404px&quot;
       /&gt;
     &lt;/span&gt;
@@ -486,7 +486,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
+    href=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -505,17 +505,17 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;twiiter&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
-        srcset=&quot;/fswq-blog/static/twitter-140356a80193236669cce8fbf8bff474-6085a.png 165w,
-/fswq-blog/static/twitter-140356a80193236669cce8fbf8bff474-948ed.png 330w,
-/fswq-blog/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png 499w&quot;
+        src=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
+        srcset=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-6085a.png 165w,
+/static/twitter-140356a80193236669cce8fbf8bff474-948ed.png 330w,
+/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png 499w&quot;
         sizes=&quot;(max-width: 499px) 100vw, 499px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[使用 CSS 追踪用户]]></title><description><![CDATA[除了使用 JS 追踪用户，现在有人提出了还可以使用  CSS 进行网页追踪和分析 ，译者认为，这种方式更为  优雅 ，更为  简洁 ，且  不好屏蔽 ，值得尝试一波，了解更多，可查看  仓库地址  和  demo…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Fri, 19 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[使用 CSS 追踪用户]]></title><description><![CDATA[除了使用 JS 追踪用户，现在有人提出了还可以使用  CSS 进行网页追踪和分析 ，译者认为，这种方式更为  优雅 ，更为  简洁 ，且  不好屏蔽 ，值得尝试一波，了解更多，可查看  仓库地址  和  demo…]]></description><link>https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Fri, 19 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -635,7 +635,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;h2 id=&quot;有什么办法可以防止使用上面的方法进行追踪&quot;&gt;&lt;a href=&quot;#%E6%9C%89%E4%BB%80%E4%B9%88%E5%8A%9E%E6%B3%95%E5%8F%AF%E4%BB%A5%E9%98%B2%E6%AD%A2%E4%BD%BF%E7%94%A8%E4%B8%8A%E9%9D%A2%E7%9A%84%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E8%BF%BD%E8%B8%AA&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;有什么办法可以防止使用上面的方法进行追踪&lt;/h2&gt;
 &lt;p&gt;目前我知道的唯一办法就是 &lt;strong&gt;完全禁用 CSS&lt;/strong&gt;（你可以使用像 &lt;a href=&quot;https://github.com/gorhill/uMatrix&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;uMatrix&lt;/a&gt; 的插件来实现），但它的代价也是十分巨大的，没有 CSS，网页就没有那么赏心悦目了，甚至导致无法正常使用，所以，禁用 CSS 算不上一个真正的选择，除非，你实在担心你的隐私（例如，当你在使用 Tor 浏览器，也许你应该禁用 CSS）。&lt;/p&gt;
 &lt;p&gt;一个更好的解决方案是，在网页加载时，浏览器不会去加载需要的外部资源，这样，就不可能监测到用户的个人行为，这种对内容加载的修改可以通过浏览器来实现，也可以通过插件来实现（类似 &lt;a href=&quot;https://noscript.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;NoScript&lt;/a&gt; 或 uMatrix）。&lt;/p&gt;
-&lt;p&gt;上述方法也存在一个明显的问题，那就是对性能会造成一定的影响，因为浏览器会在初始化页面时加载大量的内容（有些内容是页面根本不需要的）。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[一起来看 HTML 5.2 中新的原生元素 <dialog>]]></title><description><![CDATA[不到一个月前， HTML 5.2  正式成为  W3C  的推荐标准（ REC ）,其中，推出了一个新的原生模态对话框元素  dialog…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 18 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;上述方法也存在一个明显的问题，那就是对性能会造成一定的影响，因为浏览器会在初始化页面时加载大量的内容（有些内容是页面根本不需要的）。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[一起来看 HTML 5.2 中新的原生元素 <dialog>]]></title><description><![CDATA[不到一个月前， HTML 5.2  正式成为  W3C  的推荐标准（ REC ）,其中，推出了一个新的原生模态对话框元素  dialog…]]></description><link>https://fengshangwuqi.github.io/2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-01-18-yi-qi-lai-kan-html-52-zhong-xin-de-yuan-sheng-yuan-su-dialog/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 18 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -662,7 +662,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
+    href=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -681,9 +681,9 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;dialog&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
-        srcset=&quot;/fswq-blog/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-50360.png 165w,
-/fswq-blog/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png 186w&quot;
+        src=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
+        srcset=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-50360.png 165w,
+/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png 186w&quot;
         sizes=&quot;(max-width: 186px) 100vw, 186px&quot;
       /&gt;
     &lt;/span&gt;
@@ -712,7 +712,7 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png&quot;
+    href=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -731,11 +731,11 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;can i use&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-5902b.png 165w,
-/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-f6c9c.png 330w,
-/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png 660w,
-/fswq-blog/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png 800w&quot;
+        src=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png&quot;
+        srcset=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-5902b.png 165w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-f6c9c.png 330w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png 660w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -809,7 +809,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       &lt;/div&gt;
 &lt;p&gt;当然，这不是完美的，但它确实有效，如果你有更好的方式，欢迎在评论中交流。&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;说了这么多，不如自己实际演练一番，作者也做了一个 &lt;a href=&quot;https://codepen.io/FengShangWuQi/pen/qpMgZB&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;demo&lt;/a&gt;，欢迎参考。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何让 vim 成为我们的神器]]></title><description><![CDATA[Vim  是一个上古神器，刚刚接触的同学可能很难驾驭，本篇文章主要带领大家快速入门，并持续分享当前流行的一些  vim-plugin ，有兴趣的同学还可以参考  to-vim-tmux-zsh  仓库继续研究一下  Tmux  和  Zsh 。 安装 新手指南 移动光标 hjkl…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sun, 08 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;说了这么多，不如自己实际演练一番，作者也做了一个 &lt;a href=&quot;https://codepen.io/FengShangWuQi/pen/qpMgZB&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;demo&lt;/a&gt;，欢迎参考。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何让 vim 成为我们的神器]]></title><description><![CDATA[Vim  是一个上古神器，刚刚接触的同学可能很难驾驭，本篇文章主要带领大家快速入门，并持续分享当前流行的一些  vim-plugin ，有兴趣的同学还可以参考  to-vim-tmux-zsh  仓库继续研究一下  Tmux  和  Zsh 。 安装 新手指南 移动光标 hjkl…]]></description><link>https://fengshangwuqi.github.io/2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-10-08-ru-he-rang-vim-cheng-wei-wo-men-de-shen-qi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sun, 08 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Vim&lt;/strong&gt; 是一个上古神器，刚刚接触的同学可能很难驾驭，本篇文章主要带领大家快速入门，并持续分享当前流行的一些 &lt;strong&gt;vim-plugin&lt;/strong&gt;，有兴趣的同学还可以参考 &lt;a href=&quot;https://github.com/FengShangWuQi/to-vim-tmux-zsh&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;to-vim-tmux-zsh&lt;/a&gt; 仓库继续研究一下 &lt;strong&gt;Tmux&lt;/strong&gt; 和 &lt;strong&gt;Zsh&lt;/strong&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#%E5%AE%89%E8%A3%85&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;安装&lt;/h2&gt;
@@ -1200,7 +1200,7 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;amix/vim-zenroom2&apos;&lt
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png&quot;
+    href=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1219,11 +1219,11 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;amix/vim-zenroom2&apos;&lt
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;css color&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-5902b.png 165w,
-/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-f6c9c.png 330w,
-/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png 660w,
-/fswq-blog/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png 684w&quot;
+        src=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png&quot;
+        srcset=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-5902b.png 165w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-f6c9c.png 330w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png 660w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png 684w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1309,7 +1309,7 @@ augroup END
       &lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/hotoo/pangu.vim&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;hotoo/pangu.vim&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;最后，呈上 &lt;a href=&quot;https://github.com/FengShangWuQi/to-vim-tmux-zsh&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;to-vim-tmux-zsh&lt;/a&gt; 仓库可供参考，顾名思义，除了 vim 的配置，还有 tmux 和 zsh 的分享。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[你不知道的 React Router 4]]></title><description><![CDATA[几个月前， React Router 4  发布，我能清晰地感觉到来自 Twitter 大家对新版本中其大量的修改的不同声音，诚然，我在学习 React Router 4 的第一天，也是非常痛苦的，但是，这并不是因为看它的 API…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-08-17-ni-bu-zhi-dao-de-react-router-4/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-08-17-ni-bu-zhi-dao-de-react-router-4/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 17 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;最后，呈上 &lt;a href=&quot;https://github.com/FengShangWuQi/to-vim-tmux-zsh&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;to-vim-tmux-zsh&lt;/a&gt; 仓库可供参考，顾名思义，除了 vim 的配置，还有 tmux 和 zsh 的分享。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[你不知道的 React Router 4]]></title><description><![CDATA[几个月前， React Router 4  发布，我能清晰地感觉到来自 Twitter 大家对新版本中其大量的修改的不同声音，诚然，我在学习 React Router 4 的第一天，也是非常痛苦的，但是，这并不是因为看它的 API…]]></description><link>https://fengshangwuqi.github.io/2017-08-17-ni-bu-zhi-dao-de-react-router-4/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-08-17-ni-bu-zhi-dao-de-react-router-4/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 17 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -1711,7 +1711,7 @@ augroup END
       &lt;/div&gt;
 &lt;p&gt;点击 &lt;a href=&quot;http://t.cn/RC7Sc3s&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;这里&lt;/a&gt; 可以查看的我的整个 Authentication。&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;React Router 4 相比 V3，变化很大，若是之前的项目使用的 V3，不建议立即升级，但 V4 比 V3 确实存在较大的优势。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Web 动画的 5 种创建方式，每一种都不简单]]></title><description><![CDATA[在  Tweet  得到很多大佬关于  React Web 动画  不错的的回应，于是决定在这里分享给大家。 以下便是本文要分享的创建  React 动画  的几种方式： CSS animation JS Style React Motion Animated Velocity…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Mon, 14 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;React Router 4 相比 V3，变化很大，若是之前的项目使用的 V3，不建议立即升级，但 V4 比 V3 确实存在较大的优势。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Web 动画的 5 种创建方式，每一种都不简单]]></title><description><![CDATA[在  Tweet  得到很多大佬关于  React Web 动画  不错的的回应，于是决定在这里分享给大家。 以下便是本文要分享的创建  React 动画  的几种方式： CSS animation JS Style React Motion Animated Velocity…]]></description><link>https://fengshangwuqi.github.io/2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-08-14-react-web-dong-hua-de-5-zhong-chuang-jian-fang-shi-mei-yi-zhong-du-bu-jian-dan/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Mon, 14 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -2198,7 +2198,7 @@ augroup END
 &lt;li&gt;在 render 中，我们就使用该数组在 UI 中渲染 letters；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;总的来说，基本的动画，我会选择 JS style，复杂的动画，我更偏向 React Motion，而对于 React Native，我还是坚持使用 Animated，一旦 Animated 成熟，在 Web 中可能也会投入使用，目前，我很享受 React Motion。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何只用 CSS 完成漂亮的加载]]></title><description><![CDATA[为什么要做加载 只想说, 本文最重要的是对  CSS ,  伪元素 ,  keyframe…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sat, 12 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;总的来说，基本的动画，我会选择 JS style，复杂的动画，我更偏向 React Motion，而对于 React Native，我还是坚持使用 Animated，一旦 Animated 成熟，在 Web 中可能也会投入使用，目前，我很享受 React Motion。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何只用 CSS 完成漂亮的加载]]></title><description><![CDATA[为什么要做加载 只想说, 本文最重要的是对  CSS ,  伪元素 ,  keyframe…]]></description><link>https://fengshangwuqi.github.io/2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-08-12-ru-he-zhi-yong-css-wan-cheng-piao-liang-de-jia-zai/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sat, 12 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -2260,7 +2260,7 @@ augroup END
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
+    href=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2279,9 +2279,9 @@ augroup END
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
-        srcset=&quot;/fswq-blog/static/logo-0a4c41676c8226a358b57e7f40fa84e5-8727d.png 165w,
-/fswq-blog/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png 166w&quot;
+        src=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
+        srcset=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-8727d.png 165w,
+/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png 166w&quot;
         sizes=&quot;(max-width: 166px) 100vw, 166px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2329,7 +2329,7 @@ augroup END
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png&quot;
+    href=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2348,11 +2348,11 @@ augroup END
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo result&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-5902b.png 165w,
-/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-f6c9c.png 330w,
-/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png 660w,
-/fswq-blog/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png 697w&quot;
+        src=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png&quot;
+        srcset=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-5902b.png 165w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-f6c9c.png 330w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png 660w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png 697w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2404,7 +2404,7 @@ augroup END
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png&quot;
+    href=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2423,11 +2423,11 @@ augroup END
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;border&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-5902b.png 165w,
-/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-f6c9c.png 330w,
-/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png 660w,
-/fswq-blog/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png 698w&quot;
+        src=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png&quot;
+        srcset=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-5902b.png 165w,
+/static/border-f6345977aa3bba161a3f934867ceed30-f6c9c.png 330w,
+/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png 660w,
+/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png 698w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2507,7 +2507,7 @@ height 调整到 100%。&lt;/p&gt;
       &lt;/div&gt;
 &lt;p&gt;重复上面的代码，就可完成我们整个动画， 是不是很完美。&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;感谢你的阅读，最后附上 &lt;a href=&quot;https://codepen.io/FengShangWuQi/pen/NvjYoN&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;源码&lt;/a&gt;，但个人建议，不要直接阅读源码，根据上面的提示在 &lt;code&gt;codepen&lt;/code&gt; 中自己来一遍才是最佳实践。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS 自定义属性 -- 使用 JS 和不使用 JS]]></title><description><![CDATA[你曾想过在页面加载过后去修改 Sass 或 Less 的变量值么？我曾经尝试过，但并没有成功，因为当预处理的代码编译成了 CSS…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-08-08-css-zi-ding-yi-shu-xing--shi-yong-js-he-bu-shi-yong-js/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-08-08-css-zi-ding-yi-shu-xing--shi-yong-js-he-bu-shi-yong-js/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Tue, 08 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;p&gt;感谢你的阅读，最后附上 &lt;a href=&quot;https://codepen.io/FengShangWuQi/pen/NvjYoN&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;源码&lt;/a&gt;，但个人建议，不要直接阅读源码，根据上面的提示在 &lt;code&gt;codepen&lt;/code&gt; 中自己来一遍才是最佳实践。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS 自定义属性 -- 使用 JS 和不使用 JS]]></title><description><![CDATA[你曾想过在页面加载过后去修改 Sass 或 Less 的变量值么？我曾经尝试过，但并没有成功，因为当预处理的代码编译成了 CSS…]]></description><link>https://fengshangwuqi.github.io/2017-08-08-css-zi-ding-yi-shu-xing--shi-yong-js-he-bu-shi-yong-js/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-08-08-css-zi-ding-yi-shu-xing--shi-yong-js-he-bu-shi-yong-js/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Tue, 08 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -2640,7 +2640,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;li&gt;&lt;a href=&quot;http://t.cn/R9lmFHb&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Using CSS custom properties for theme previews&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
-&lt;p&gt;将自定义属性和 JavaScipt 或其他脚本语言结合, 你会瞬间坠入 &lt;strong&gt;自定义属性&lt;/strong&gt; 的爱河。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[微信小程序那些事]]></title><description><![CDATA[微信小程序自  1  月发布以来有段时间了，之前给我的印象就是背影很美，估计是个美女，因为听到小程序不需要下载，安装，信息触手可及，用完即走，无需卸载，感觉那可谓是前途无量，然而当时  Ubuntu…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 22 Jun 2017 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;将自定义属性和 JavaScipt 或其他脚本语言结合, 你会瞬间坠入 &lt;strong&gt;自定义属性&lt;/strong&gt; 的爱河。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[微信小程序那些事]]></title><description><![CDATA[微信小程序自  1  月发布以来有段时间了，之前给我的印象就是背影很美，估计是个美女，因为听到小程序不需要下载，安装，信息触手可及，用完即走，无需卸载，感觉那可谓是前途无量，然而当时  Ubuntu…]]></description><link>https://fengshangwuqi.github.io/2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-06-22-wei-xin-xiao-cheng-xu-na-xie-shi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 22 Jun 2017 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;微信小程序自 &lt;strong&gt;1&lt;/strong&gt; 月发布以来有段时间了，之前给我的印象就是背影很美，估计是个美女，因为听到小程序不需要下载，安装，信息触手可及，用完即走，无需卸载，感觉那可谓是前途无量，然而当时 &lt;strong&gt;Ubuntu&lt;/strong&gt; 用的正欢，所以最近才来体验了一波。但就开发体验而言，表示实在 &lt;strong&gt;有点不爽&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;快速开始&quot;&gt;&lt;a href=&quot;#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;快速开始&lt;/h2&gt;
@@ -2656,7 +2656,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
+    href=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2675,9 +2675,9 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;目录&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
-        srcset=&quot;/fswq-blog/static/content-4f61167291d1531dbd02246347cad8f8-8e13e.png 165w,
-/fswq-blog/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png 249w&quot;
+        src=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
+        srcset=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-8e13e.png 165w,
+/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png 249w&quot;
         sizes=&quot;(max-width: 249px) 100vw, 249px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2697,7 +2697,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
+    href=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2716,10 +2716,10 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;自动补全&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
-        srcset=&quot;/fswq-blog/static/debug-3db533b817c580b060a6bb0e02dfebe0-2f9c6.png 165w,
-/fswq-blog/static/debug-3db533b817c580b060a6bb0e02dfebe0-7e669.png 330w,
-/fswq-blog/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png 344w&quot;
+        src=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
+        srcset=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-2f9c6.png 165w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-7e669.png 330w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png 344w&quot;
         sizes=&quot;(max-width: 344px) 100vw, 344px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2731,7 +2731,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
 &lt;p&gt;老实说，微信小程序就目前给我的开发体验不是忒好，她就像一个背影杀手，当然，小程序刚推出来不久，有些毛病那也是很正常的，如果开发者工具能够加强开发体验，我相信，在不久的将来，小程序还是能掀起一波开发热潮。&lt;/p&gt;
 &lt;p&gt;最后附上一个练手的 demo — &lt;a href=&quot;https://github.com/FengShangWuQi/wechat-douban-movie&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;wechat-douban-movie&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/screenshot-01134e0070afbb61ad8493b03994c900.gif&quot; alt=&quot;截图&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[当决定使用 Ubuntu 来开发时]]></title><description><![CDATA[准备 下载  Ubuntu Kylin ； 使用  UltraISO  制作 U 盘启动盘； 入门 目录 /home ：用户的主目录 /boot ：启动目录，启动相关文件 /sbin ：超级用户才能使用的目录 /root ：超级用户的主目录 /proc ：系统内存的映射 /dev…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Tue, 09 May 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#%E5%87%86%E5%A4%87&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;准备&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/screenshot-01134e0070afbb61ad8493b03994c900.gif&quot; alt=&quot;截图&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[当决定使用 Ubuntu 来开发时]]></title><description><![CDATA[准备 下载  Ubuntu Kylin ； 使用  UltraISO  制作 U 盘启动盘； 入门 目录 /home ：用户的主目录 /boot ：启动目录，启动相关文件 /sbin ：超级用户才能使用的目录 /root ：超级用户的主目录 /proc ：系统内存的映射 /dev…]]></description><link>https://fengshangwuqi.github.io/2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Tue, 09 May 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#%E5%87%86%E5%A4%87&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;准备&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;下载 &lt;a href=&quot;http://www.ubuntu.org.cn/download/ubuntu-kylin&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Ubuntu Kylin&lt;/a&gt;；&lt;/li&gt;
 &lt;li&gt;使用 &lt;a href=&quot;https://cn.ultraiso.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;UltraISO&lt;/a&gt; 制作 U 盘启动盘；&lt;/li&gt;
@@ -2936,7 +2936,7 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png&quot;
+    href=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2955,11 +2955,11 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;PS1&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-5902b.png 165w,
-/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-f6c9c.png 330w,
-/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png 660w,
-/fswq-blog/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png 721w&quot;
+        src=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png&quot;
+        srcset=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-5902b.png 165w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-f6c9c.png 330w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png 660w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png 721w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2990,7 +2990,7 @@ $ vim /.bashrc
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png&quot;
+    href=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3009,11 +3009,11 @@ $ vim /.bashrc
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;tmux&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-5902b.png 165w,
-/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-f6c9c.png 330w,
-/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png 660w,
-/fswq-blog/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png 800w&quot;
+        src=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png&quot;
+        srcset=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-5902b.png 165w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-f6c9c.png 330w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png 660w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3021,7 +3021,7 @@ $ vim /.bashrc
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/FengShangWuQi/to-vim-tmux-zsh&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;to-vim-tmux-zsh&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何高效地使用 Git]]></title><description><![CDATA[基本操作 初始化设置 设置用户名和邮箱： 其中， —global  是全局设置，如果想对特定项目使用不同配置，可取消该参数。 git config  还可以设置其他选项，因为平时不怎么用，所以详细可以参考  git config —help。 查看配置： 创建  SSH Key…]]></description><link>https://fengshangwuqi.github.io/fswq-blog/2017-04-09-ru-he-gao-xiao-di-shi-yong-git/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/fswq-blog/2017-04-09-ru-he-gao-xiao-di-shi-yong-git/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sun, 09 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;基本操作&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/FengShangWuQi/to-vim-tmux-zsh&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;to-vim-tmux-zsh&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何高效地使用 Git]]></title><description><![CDATA[基本操作 初始化设置 设置用户名和邮箱： 其中， —global  是全局设置，如果想对特定项目使用不同配置，可取消该参数。 git config  还可以设置其他选项，因为平时不怎么用，所以详细可以参考  git config —help。 查看配置： 创建  SSH Key…]]></description><link>https://fengshangwuqi.github.io/2017-04-09-ru-he-gao-xiao-di-shi-yong-git/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2017-04-09-ru-he-gao-xiao-di-shi-yong-git/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Sun, 09 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;基本操作&lt;/h2&gt;
 &lt;h3 id=&quot;初始化设置&quot;&gt;&lt;a href=&quot;#%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%BE%E7%BD%AE&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;初始化设置&lt;/h3&gt;
 &lt;p&gt;设置用户名和邮箱：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
@@ -3314,7 +3314,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
+    href=&quot;/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3333,10 +3333,10 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;add.png&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
-        srcset=&quot;/fswq-blog/static/add-75cf59013870fb00117ce367878d73aa-9746d.png 165w,
-/fswq-blog/static/add-75cf59013870fb00117ce367878d73aa-c4d52.png 330w,
-/fswq-blog/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png 580w&quot;
+        src=&quot;/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
+        srcset=&quot;/static/add-75cf59013870fb00117ce367878d73aa-9746d.png 165w,
+/static/add-75cf59013870fb00117ce367878d73aa-c4d52.png 330w,
+/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png 580w&quot;
         sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3348,7 +3348,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png&quot;
+    href=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3367,11 +3367,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;license.png&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-5902b.png 165w,
-/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-f6c9c.png 330w,
-/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png 660w,
-/fswq-blog/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png 800w&quot;
+        src=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png&quot;
+        srcset=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-5902b.png 165w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-f6c9c.png 330w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png 660w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3393,7 +3393,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-64449.png&quot;
+    href=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-64449.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3412,11 +3412,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;io&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-5902b.png 165w,
-/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-f6c9c.png 330w,
-/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png 660w,
-/fswq-blog/static/io-8bab443e05e779a4f274e2a489534f16-64449.png 800w&quot;
+        src=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png&quot;
+        srcset=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-5902b.png 165w,
+/static/io-8bab443e05e779a4f274e2a489534f16-f6c9c.png 330w,
+/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png 660w,
+/static/io-8bab443e05e779a4f274e2a489534f16-64449.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3440,7 +3440,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png&quot;
+    href=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3459,11 +3459,11 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gists&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png&quot;
-        srcset=&quot;/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-5902b.png 165w,
-/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-f6c9c.png 330w,
-/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png 660w,
-/fswq-blog/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png 800w&quot;
+        src=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png&quot;
+        srcset=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-5902b.png 165w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-f6c9c.png 330w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png 660w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3478,7 +3478,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/fswq-blog/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
+    href=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3497,9 +3497,9 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;keyboard&quot;
         title=&quot;&quot;
-        src=&quot;/fswq-blog/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
-        srcset=&quot;/fswq-blog/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-2e08a.png 165w,
-/fswq-blog/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png 295w&quot;
+        src=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
+        srcset=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-2e08a.png 165w,
+/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png 295w&quot;
         sizes=&quot;(max-width: 295px) 100vw, 295px&quot;
       /&gt;
     &lt;/span&gt;
