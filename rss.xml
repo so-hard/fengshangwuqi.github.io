@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Apr 2018 11:45:50 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Apr 2018 16:02:24 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。下面，我们就一起通过一个实例来看看 chrome 扩展开发。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这个实例不是很复杂，是我之前一直想做的，就是 &lt;strong&gt;通过 chrome 扩展来同步每日阅读的不错的前端资讯&lt;/strong&gt;。相信大家也有清晰地感受到，前端社区在诸多社区中可谓最为活跃的，所以，坚持筛选学习的内容是比较考验耐心，也是尤为重要的，相对微信公众号，twitter 和 newsletter 等方式，个人感觉 chrome 扩展也不失为一种友好的方式。&lt;/p&gt;
@@ -215,7 +215,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png&quot;
+    href=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -223,23 +223,22 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 27.371273712737125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQY04WPvUrEQBRG8852gq2PYafWWgqClYiFrKyBJJtZk0z+VpOMM5NxEYtjdiCyIIvFgVOd+90gtkeE3TGy2CBEiiwlXfeGHke01gx1jbHWuzHGs+9FIclz6b1tG4Ln+oSH+JRaKF4jSRY1tO+Woaqo7m7ZJDHGuYPBvu89O1dKETj7zWi+WC0KxEtJci9YXt7wdH5FuoimdVsf0Nr8RuboDjutt3sfBMZo1DAQhktk1ZNdP5KeXVDJkWat6Bs1Rc3BhXN4dh80k+RZzioSrJOSj63DfU6XnfkT+48fiPx0safZkPYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABjElEQVQoz21SW27CMBDkSBy14osD8MMZ+hA/FVJbqiJVQi2BQAptCAnEDjHEjj1dJ00gqBut1ruOx7OzbmmtMHYy3D6lSAQgEobZh4P11xprz8NyvsRq6SHYBOCc48A4rMntFl6vB5llRW6MKWIrzyWmK4WHkQBPDTTljLHC4zgGp8h5AkbraLMpwXwfs04He7qwANP6DKiULBYqN/VNmn74z62J+RwOgfEwrMEaDKUsAalUFKuNazNKgfX7mHW7JEvyVzQNsAZgVRRC4EAHwm2IIAgQRQHCQ4LV/R0+221Mx2/YUx6RhgFJII7H+rz1GrBqyYIt3AXmroOfKcOatPXfj/h+ieC9MiQbSfJkUMTYDqQ6Z/QVYGVnzXKoTEPSoGSqQbOClrb1piRlZ5VTy7vdDo7jYDKZwHVd2AtEmuJ0OtXanqMpP3Opt0F2MFg9a6gjMfTpCQyHQwwGA4xGowLIvrk4ZhfaoHaYS3ZlTHyDx5sTxF6jZYdg9cjzvGBnY7MdNBhdsztPuMx/AXpRArS8B5zyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;inspect&quot;
+        alt=&quot;debug&quot;
         title=&quot;&quot;
-        src=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png&quot;
-        srcset=&quot;/static/inspect-ba9b75079421fa6cbd667c459a53427c-5902b.png 165w,
-/static/inspect-ba9b75079421fa6cbd667c459a53427c-f6c9c.png 330w,
-/static/inspect-ba9b75079421fa6cbd667c459a53427c-73c38.png 660w,
-/static/inspect-ba9b75079421fa6cbd667c459a53427c-1d1c6.png 738w&quot;
-        sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
+        src=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png&quot;
+        srcset=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-e46cc.png 165w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-0f037.png 330w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -251,7 +250,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
+    href=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -259,37 +258,28 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 585px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 598px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 79.65811965811966%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACx0lEQVQ4y62TS08TURTH5wsZNSYmxoXCQt0YEKLRlYkkGtZiYuKXMIaNz2BEMMYFoqhIBMQgURCBArX0QS10Wtp5dqYzd2ba+XvunQ6IKxOd5Jdz7jn3cf733JHW01msbWSxns7tYyWVFSRaNmb5RwZrmTzmFr7j+s1buHzlKjp7etF7/DT6+s5AanuwhPaHyzjZoq1lOwZX0TW0KmxMJ9FNsbNPEmh/tIIT9xZxajiN3vsf8fzaDfTcnYV0dHAbx4aLODSQx+GBn4KDROeIjIuvS+gg2z0q49xLGV3EpTEeK+LI4zwOPKvgfP9n9N95gdsrJi68qUAaWZUxkpQxLTuY3LYxWSS2bIwT73IWxnPc7vE2y2MWprYZRsa+YGLoFd4XHEzkCYpLpZU0slPrgAXAaAIqYYeRBVk0/iAgKOdaqC8ttOYQYSCsZO94UBI2qikTxUQV5VUD9XIAM+eBOQEcxlB3XIHjRr5ddwSsGcKlmONGeeb5kHbKMjYySfyvT9I3a9j8JKO6aKIyb0Ce1lGeI74aqCYMWHYNhm5AUzXomo5qpUJUUTNNqKoKVYngOY95kBhJMkwdZs2kxRZM06CJCjRNFb5lWbuL+cYROuU11El24PvwPA8+2UajAamQyWH2wwzkQimqOfxHyUpSR2q0gMJEBfKMhvKsCWOnBkVRhDRd0wS8qpoZxXfKZSExvgoOV8IrlUxDR7G4RV2qiwDzGLyAIQh9MN9FEARCDr8a7os55McxPuY0m82owkIyj6mnU9Dp0cIFWLEBr9QE22og0EP4nr+7gf/bYj7mB8SHuPR0eExydR/KmoXysopSqoLiPPGN5M8rUDaoQVWVJEVdjDstoCswDEPkTMMUOZtkS8xzYdg6XJ8/Vgs224NqRBiGoiLeQe7H49jnxB/3Jf52mEN/gGXTEwj2t6w1l2/QbDT/qsu/AB7vkvh7HJEkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.88963210702342%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACD0lEQVQ4y6VSzW4TMRD2UxQEQlwRCHgKnoF34Hloi6Ak4dwb3AqcOFUUUKlCimhDE1LywybZX9trr/0x4+yGCoE4YOnTfB7PzuzMN+L6zg6uPXmMjc2HuLy1iUsEtrc7Hdx91sGN1lPcbLdwh/itdpvQorc2rmxvYYPirj7axv0Xz/Hg1Uvc292FOOge4Xg4gIJHYjSSsgyIlEIkJeZk5xd442/iYq0xyjIMkgSTIofovT9Fv/sd6bjE4lzBlgaGgkrJvERlDDQlYB9b9jFXxFV9rwiO4K2FyFOJ5TzDj+kCeabgvEPlCFUFR9Z7v7rXPrau5ra5U0wAcdE/6ePt/gcc7B8iWRTk9CipmqVqDOaG/pIREnIi8l/kHNPECRlXSKYGs2GO89MFsrSAlAWU0iFI1q0FS/NjMNdarxMVRVG/S4jhtzMcdQ8xiyZYHY//OeLk0wjv3hzjy8cxkhkJoBWyLA8VuTKDW2nuaZoGnuerGEZGKiekMr+LNMmoJVKpAqxhEVwQxrlf8PXAf0fjb+YZRDnufcbe3muahQ3dOuthtQ8FgsJ1IJ+VCNU6IQuy3oQ6qVhMCoy/JphPckzOaDkHKQa9CNPREnmRIYoixHGMeLkMrXFbWpdBHG5b8U7WXNLuClZL0dwKWQTlbGVhrEFpylBxtTKkNn3Ef/JPUTgJgytUlftjECdqkjX8b/gJMWHVFEwIk3IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;news&quot;
         title=&quot;&quot;
-        src=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png&quot;
-        srcset=&quot;/static/new-61db88de1e134e51fa3cbfc646e50447-c89fe.png 165w,
-/static/new-61db88de1e134e51fa3cbfc646e50447-35529.png 330w,
-/static/new-61db88de1e134e51fa3cbfc646e50447-e5ab4.png 585w&quot;
-        sizes=&quot;(max-width: 585px) 100vw, 585px&quot;
+        src=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png&quot;
+        srcset=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-2459a.png 165w,
+/static/news-d7e6a1a33ec7140a785f94b4cfd00225-1e986.png 330w,
+/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png 598w&quot;
+        sizes=&quot;(max-width: 598px) 100vw, 598px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;该实例目前还存在很多 &lt;strong&gt;TODO&lt;/strong&gt; 的内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 添加 loading；&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 支持 Firefox；&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 添加新内容，比如来源，作者信息，图片等；&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 添加新功能，比如查看全部等；&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 添加错误提示，比如没有网络，无法正常获取数据等；&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 添加个性化配置，比如配置前端感兴趣的内容等；&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;目前该 &lt;a href=&quot;https://chrome.google.com/webstore/detail/front-end-news/dcijaoifeaaafbdglmalaajeedcamogg&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;扩展&lt;/a&gt; 初始版本已发布，点击前面的链接可查看更多，如果大伙中有人感兴趣，&lt;a href=&quot;https://github.com/FengShangWuQi/chrome-Daily-Front-End-news&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;chrome-Daily-Front-End-news&lt;/a&gt; 仓库期待收到你的 PR，&lt;a href=&quot;https://github.com/FengShangWuQi/Daily-Front-End-News&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Daily-Front-End-News&lt;/a&gt; 同上。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React ⚛️ 新的 Context API]]></title><description><![CDATA[这不再是一个  实验性的 API ，并且它更符合工程化的理念，目前它已成为  React 一级棒的 API 。 ⚠️ ：大家可以通过  newsletter  获取我最新的资讯，我一般每两周通过邮件发送一次，大家可以通过自己的收件箱获取更多的内容。 React…]]></description><link>https://fengshangwuqi.github.io/2018-02-01-react-xin-de-context-api/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-02-01-react-xin-de-context-api/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
