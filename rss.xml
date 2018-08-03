@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Jun 2018 08:33:26 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 03 Aug 2018 12:23:09 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;最近接触了一下 chrome 扩展，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。下面，我们就一起通过一个实例来看看 chrome 扩展开发。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这个实例不是很复杂，是我之前一直想做的，就是 &lt;strong&gt;通过 chrome 扩展来同步每日阅读的不错的前端资讯&lt;/strong&gt;。相信大家也有清晰地感受到，前端社区在诸多社区中可谓最为活跃的，所以，坚持筛选学习的内容是比较考验耐心，也是尤为重要的，相对微信公众号，twitter 和 newsletter 等方式，个人感觉 chrome 扩展也不失为一种友好的方式。&lt;/p&gt;
@@ -215,7 +215,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png&quot;
+    href=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-06515.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -223,7 +223,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -234,10 +234,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;debug&quot;
         title=&quot;&quot;
-        src=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png&quot;
-        srcset=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-e46cc.png 165w,
-/static/debug-14fbcd7fb77e237bab71ce5458a173eb-0f037.png 330w,
-/static/debug-14fbcd7fb77e237bab71ce5458a173eb-9b0bb.png 400w&quot;
+        src=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-06515.png&quot;
+        srcset=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-fde98.png 165w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-afb64.png 330w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-06515.png 400w&quot;
         sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
       /&gt;
     &lt;/span&gt;
@@ -250,7 +250,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png&quot;
+    href=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-c5ef8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -258,7 +258,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 598px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 598px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -269,10 +269,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;news&quot;
         title=&quot;&quot;
-        src=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png&quot;
-        srcset=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-2459a.png 165w,
-/static/news-d7e6a1a33ec7140a785f94b4cfd00225-1e986.png 330w,
-/static/news-d7e6a1a33ec7140a785f94b4cfd00225-3761f.png 598w&quot;
+        src=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-c5ef8.png&quot;
+        srcset=&quot;/static/news-d7e6a1a33ec7140a785f94b4cfd00225-68043.png 165w,
+/static/news-d7e6a1a33ec7140a785f94b4cfd00225-457fe.png 330w,
+/static/news-d7e6a1a33ec7140a785f94b4cfd00225-c5ef8.png 598w&quot;
         sizes=&quot;(max-width: 598px) 100vw, 598px&quot;
       /&gt;
     &lt;/span&gt;
@@ -301,7 +301,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/API-c35b793fa67380a56edba68e746ca472-b9936.png&quot;
+    href=&quot;/static/API-c35b793fa67380a56edba68e746ca472-898c6.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -309,7 +309,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -320,11 +320,11 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;API&quot;
         title=&quot;&quot;
-        src=&quot;/static/API-c35b793fa67380a56edba68e746ca472-73c38.png&quot;
-        srcset=&quot;/static/API-c35b793fa67380a56edba68e746ca472-5902b.png 165w,
-/static/API-c35b793fa67380a56edba68e746ca472-f6c9c.png 330w,
-/static/API-c35b793fa67380a56edba68e746ca472-73c38.png 660w,
-/static/API-c35b793fa67380a56edba68e746ca472-b9936.png 748w&quot;
+        src=&quot;/static/API-c35b793fa67380a56edba68e746ca472-16a2a.png&quot;
+        srcset=&quot;/static/API-c35b793fa67380a56edba68e746ca472-e58a5.png 165w,
+/static/API-c35b793fa67380a56edba68e746ca472-c47f2.png 330w,
+/static/API-c35b793fa67380a56edba68e746ca472-16a2a.png 660w,
+/static/API-c35b793fa67380a56edba68e746ca472-898c6.png 748w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -386,7 +386,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
+    href=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-54350.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -394,7 +394,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 404px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 404px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -405,10 +405,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;practice&quot;
         title=&quot;&quot;
-        src=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png&quot;
-        srcset=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-70084.png 165w,
-/static/practice-10fcc983644e66d2d824bd1430d25227-1b591.png 330w,
-/static/practice-10fcc983644e66d2d824bd1430d25227-f02de.png 404w&quot;
+        src=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-54350.png&quot;
+        srcset=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-2d63b.png 165w,
+/static/practice-10fcc983644e66d2d824bd1430d25227-24671.png 330w,
+/static/practice-10fcc983644e66d2d824bd1430d25227-54350.png 404w&quot;
         sizes=&quot;(max-width: 404px) 100vw, 404px&quot;
       /&gt;
     &lt;/span&gt;
@@ -466,7 +466,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
+    href=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-18c02.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -474,7 +474,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 499px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 499px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -485,10 +485,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;twiiter&quot;
         title=&quot;&quot;
-        src=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png&quot;
-        srcset=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-6085a.png 165w,
-/static/twitter-140356a80193236669cce8fbf8bff474-948ed.png 330w,
-/static/twitter-140356a80193236669cce8fbf8bff474-f3fd1.png 499w&quot;
+        src=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-18c02.png&quot;
+        srcset=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-4133c.png 165w,
+/static/twitter-140356a80193236669cce8fbf8bff474-40f27.png 330w,
+/static/twitter-140356a80193236669cce8fbf8bff474-18c02.png 499w&quot;
         sizes=&quot;(max-width: 499px) 100vw, 499px&quot;
       /&gt;
     &lt;/span&gt;
@@ -633,7 +633,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
+    href=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-3e246.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -641,7 +641,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 186px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 186px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -652,9 +652,9 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;dialog&quot;
         title=&quot;&quot;
-        src=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png&quot;
-        srcset=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-50360.png 165w,
-/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-73b36.png 186w&quot;
+        src=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-3e246.png&quot;
+        srcset=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-28e1e.png 165w,
+/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-3e246.png 186w&quot;
         sizes=&quot;(max-width: 186px) 100vw, 186px&quot;
       /&gt;
     &lt;/span&gt;
@@ -682,7 +682,7 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png&quot;
+    href=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-fe562.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -690,7 +690,7 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -701,11 +701,11 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;can i use&quot;
         title=&quot;&quot;
-        src=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png&quot;
-        srcset=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-5902b.png 165w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-f6c9c.png 330w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-73c38.png 660w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-64449.png 800w&quot;
+        src=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-16a2a.png&quot;
+        srcset=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-e58a5.png 165w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-c47f2.png 330w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-16a2a.png 660w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-fe562.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1141,7 +1141,7 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;amix/vim-zenroom2&apos;&lt
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png&quot;
+    href=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-b32d8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1149,7 +1149,7 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;amix/vim-zenroom2&apos;&lt
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1160,11 +1160,11 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;amix/vim-zenroom2&apos;&lt
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;css color&quot;
         title=&quot;&quot;
-        src=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png&quot;
-        srcset=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-5902b.png 165w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-f6c9c.png 330w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-73c38.png 660w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-43888.png 684w&quot;
+        src=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-16a2a.png&quot;
+        srcset=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-e58a5.png 165w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-c47f2.png 330w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-16a2a.png 660w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-b32d8.png 684w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2201,7 +2201,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
+    href=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-17dcc.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2209,7 +2209,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 166px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 166px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2220,9 +2220,9 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png&quot;
-        srcset=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-8727d.png 165w,
-/static/logo-0a4c41676c8226a358b57e7f40fa84e5-3ad8b.png 166w&quot;
+        src=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-17dcc.png&quot;
+        srcset=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-381b3.png 165w,
+/static/logo-0a4c41676c8226a358b57e7f40fa84e5-17dcc.png 166w&quot;
         sizes=&quot;(max-width: 166px) 100vw, 166px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2268,7 +2268,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png&quot;
+    href=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-0e74f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2276,7 +2276,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2287,11 +2287,11 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo result&quot;
         title=&quot;&quot;
-        src=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png&quot;
-        srcset=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-5902b.png 165w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-f6c9c.png 330w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-73c38.png 660w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-ed342.png 697w&quot;
+        src=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-16a2a.png&quot;
+        srcset=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-e58a5.png 165w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-c47f2.png 330w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-16a2a.png 660w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-0e74f.png 697w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2342,7 +2342,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png&quot;
+    href=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-2fbb8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2350,7 +2350,7 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2361,11 +2361,11 @@ export default connect(stateToProps)(AuthorizedRoute);&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;border&quot;
         title=&quot;&quot;
-        src=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png&quot;
-        srcset=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-5902b.png 165w,
-/static/border-f6345977aa3bba161a3f934867ceed30-f6c9c.png 330w,
-/static/border-f6345977aa3bba161a3f934867ceed30-73c38.png 660w,
-/static/border-f6345977aa3bba161a3f934867ceed30-2e922.png 698w&quot;
+        src=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-16a2a.png&quot;
+        srcset=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-e58a5.png 165w,
+/static/border-f6345977aa3bba161a3f934867ceed30-c47f2.png 330w,
+/static/border-f6345977aa3bba161a3f934867ceed30-16a2a.png 660w,
+/static/border-f6345977aa3bba161a3f934867ceed30-2fbb8.png 698w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2580,7 +2580,7 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
+    href=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-a8d92.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2588,7 +2588,7 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 249px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 249px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2599,9 +2599,9 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;目录&quot;
         title=&quot;&quot;
-        src=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png&quot;
-        srcset=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-8e13e.png 165w,
-/static/content-4f61167291d1531dbd02246347cad8f8-0b779.png 249w&quot;
+        src=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-a8d92.png&quot;
+        srcset=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-3a7c2.png 165w,
+/static/content-4f61167291d1531dbd02246347cad8f8-a8d92.png 249w&quot;
         sizes=&quot;(max-width: 249px) 100vw, 249px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2621,7 +2621,7 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
+    href=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-a3aaf.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2629,7 +2629,7 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 344px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 344px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2640,10 +2640,10 @@ colorInput.addEventListener(&amp;quot;change&amp;quot;, function() {
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;自动补全&quot;
         title=&quot;&quot;
-        src=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png&quot;
-        srcset=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-2f9c6.png 165w,
-/static/debug-3db533b817c580b060a6bb0e02dfebe0-7e669.png 330w,
-/static/debug-3db533b817c580b060a6bb0e02dfebe0-c9965.png 344w&quot;
+        src=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-a3aaf.png&quot;
+        srcset=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-4cc7c.png 165w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-a3dcf.png 330w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-a3aaf.png 344w&quot;
         sizes=&quot;(max-width: 344px) 100vw, 344px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2837,7 +2837,7 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png&quot;
+    href=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-403b3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2845,7 +2845,7 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2856,11 +2856,11 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;PS1&quot;
         title=&quot;&quot;
-        src=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png&quot;
-        srcset=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-5902b.png 165w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-f6c9c.png 330w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-73c38.png 660w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-f404e.png 721w&quot;
+        src=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-16a2a.png&quot;
+        srcset=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-e58a5.png 165w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-c47f2.png 330w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-16a2a.png 660w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-403b3.png 721w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2890,7 +2890,7 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png&quot;
+    href=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-fe562.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2898,7 +2898,7 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2909,11 +2909,11 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;tmux&quot;
         title=&quot;&quot;
-        src=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png&quot;
-        srcset=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-5902b.png 165w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-f6c9c.png 330w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-73c38.png 660w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-64449.png 800w&quot;
+        src=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-16a2a.png&quot;
+        srcset=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-e58a5.png 165w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-c47f2.png 330w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-16a2a.png 660w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-fe562.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3200,7 +3200,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
+    href=&quot;/static/add-75cf59013870fb00117ce367878d73aa-8fbcd.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3208,7 +3208,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 580px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 580px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3219,10 +3219,10 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;add.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png&quot;
-        srcset=&quot;/static/add-75cf59013870fb00117ce367878d73aa-9746d.png 165w,
-/static/add-75cf59013870fb00117ce367878d73aa-c4d52.png 330w,
-/static/add-75cf59013870fb00117ce367878d73aa-30d3e.png 580w&quot;
+        src=&quot;/static/add-75cf59013870fb00117ce367878d73aa-8fbcd.png&quot;
+        srcset=&quot;/static/add-75cf59013870fb00117ce367878d73aa-82c81.png 165w,
+/static/add-75cf59013870fb00117ce367878d73aa-8794f.png 330w,
+/static/add-75cf59013870fb00117ce367878d73aa-8fbcd.png 580w&quot;
         sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3234,7 +3234,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png&quot;
+    href=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-fe562.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3242,7 +3242,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3253,11 +3253,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;license.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png&quot;
-        srcset=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-5902b.png 165w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-f6c9c.png 330w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-73c38.png 660w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-64449.png 800w&quot;
+        src=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-16a2a.png&quot;
+        srcset=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-e58a5.png 165w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-c47f2.png 330w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-16a2a.png 660w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-fe562.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3279,7 +3279,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-64449.png&quot;
+    href=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-fe562.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3287,7 +3287,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3298,11 +3298,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;io&quot;
         title=&quot;&quot;
-        src=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png&quot;
-        srcset=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-5902b.png 165w,
-/static/io-8bab443e05e779a4f274e2a489534f16-f6c9c.png 330w,
-/static/io-8bab443e05e779a4f274e2a489534f16-73c38.png 660w,
-/static/io-8bab443e05e779a4f274e2a489534f16-64449.png 800w&quot;
+        src=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-16a2a.png&quot;
+        srcset=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-e58a5.png 165w,
+/static/io-8bab443e05e779a4f274e2a489534f16-c47f2.png 330w,
+/static/io-8bab443e05e779a4f274e2a489534f16-16a2a.png 660w,
+/static/io-8bab443e05e779a4f274e2a489534f16-fe562.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3325,7 +3325,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png&quot;
+    href=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-fe562.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3333,7 +3333,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3344,11 +3344,11 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gists&quot;
         title=&quot;&quot;
-        src=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png&quot;
-        srcset=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-5902b.png 165w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-f6c9c.png 330w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-73c38.png 660w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-64449.png 800w&quot;
+        src=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-16a2a.png&quot;
+        srcset=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-e58a5.png 165w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-c47f2.png 330w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-16a2a.png 660w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-fe562.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3363,7 +3363,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
+    href=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-f82e2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3371,7 +3371,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 295px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-bottom: 40px; max-width: 295px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3382,9 +3382,9 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;keyboard&quot;
         title=&quot;&quot;
-        src=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png&quot;
-        srcset=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-2e08a.png 165w,
-/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-5f684.png 295w&quot;
+        src=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-f82e2.png&quot;
+        srcset=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-38e73.png 165w,
+/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-f82e2.png 295w&quot;
         sizes=&quot;(max-width: 295px) 100vw, 295px&quot;
       /&gt;
     &lt;/span&gt;
