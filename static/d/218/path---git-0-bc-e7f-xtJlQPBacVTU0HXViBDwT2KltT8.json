@@ -1,0 +1,1 @@
+{"pageContext":{"post":[{"node":{"excerpt":"基本操作 初始化设置 设置用户名和邮箱： 其中，  是全局设置，如果想对特定项目使用不同配置，可取消该参数。 git config  还可以设置其他选项，因为平时不怎么用，所以详细可以参考  git config —help 。 查看配置： 创建  SSH Key…","fields":{"slug":"/2017-04-09-ru-he-gao-xiao-di-shi-yong-git/"},"frontmatter":{"title":"如何高效地使用 Git","tag":"Git","date":"2017-04-09","original":true}}}],"tag":"Git"}}

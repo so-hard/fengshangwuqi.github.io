@@ -1,0 +1,1 @@
+{"pageContext":{"post":[{"node":{"excerpt":"入门 目录 /home ：用户的主目录 /boot ：启动目录，启动相关文件 /sbin ：超级用户才能使用的目录 /root ：超级用户的主目录 /proc ：系统内存的映射 /dev ：设备文件保存目录 /etc ：配置文件保存目录 /lib ：系统库保存目录 /usr…","fields":{"slug":"/2017-05-09-dang-jue-ding-shi-yong-ubuntu-lai-kai-fa-shi/"},"frontmatter":{"title":"当决定使用 Ubuntu 来开发时","tag":"Linux,Ubuntu","date":"2017-05-09","original":true}}}],"tag":"Ubuntu"}}
