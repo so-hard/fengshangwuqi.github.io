@@ -1,0 +1,4 @@
+.archive{display:flex;margin-bottom:.25rem;position:relative}.archive-published{color:#adabac;left:-70px;position:absolute;top:0}.archive-title-text{color:#237bd9;font-size:.9rem;margin-right:20px}@media only screen and (max-width:1024px){.archive-published{position:static}}
+.archives-list{list-style-type:none;margin:0;position:relative}.archives-item{margin-bottom:60px}.archives-item:last-child{margin-bottom:120px}.archive-item{margin-bottom:10px}.archive-year{color:#34495e;left:-72px;position:relative;top:0}@media only screen and (max-width:1024px){.archive-year{left:0}}
+
+/*# sourceMappingURL=component---src-templates-archive-index-js.6ddc08702b865cd99034.css.map*/
