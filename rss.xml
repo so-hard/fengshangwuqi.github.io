@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 Aug 2018 02:37:56 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下  chrome 扩展 ，发现这确实是一个好东西，使用简单的  HTML ， CSS  和  JavaScript  就可为浏览器新增我们想要的功能，并且，使用  chrome…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[枫上雾棋的日志]]></title><description><![CDATA[from Front-End to Full stack]]></description><link>https://fengshangwuqi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Sep 2018 09:52:48 GMT</lastBuildDate><author><![CDATA[枫上雾棋]]></author><item><title><![CDATA[程序员偷懒指南 -- 使用 chrome 扩展实现前端资讯推送]]></title><description><![CDATA[最近接触了一下  chrome 扩展 ，发现这确实是一个好东西，使用简单的  HTML ， CSS  和  JavaScript  就可为浏览器新增我们想要的功能，并且，使用  chrome…]]></description><link>https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-04-04-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-kuo-zhan-shi-xian-qian-duan-zi-xun-tui-song/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Thu, 08 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;最近接触了一下 &lt;strong&gt;chrome 扩展&lt;/strong&gt;，发现这确实是一个好东西，使用简单的 &lt;strong&gt;HTML&lt;/strong&gt;，&lt;strong&gt;CSS&lt;/strong&gt; 和 &lt;strong&gt;JavaScript&lt;/strong&gt; 就可为浏览器新增我们想要的功能，并且，使用 &lt;strong&gt;chrome 扩展&lt;/strong&gt; 开发，不用担心 &lt;strong&gt;跨域&lt;/strong&gt; 等消息传递问题，还有讨厌的 &lt;strong&gt;兼容性&lt;/strong&gt; 问题，结合操作用户页面 dom，开发的开心度可谓是可观的。下面，我们就一起通过一个实例来看看 &lt;strong&gt;chrome 扩展&lt;/strong&gt; 开发。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这个实例不是很复杂，是我之前一直想做的，就是 &lt;strong&gt;通过 chrome 扩展来同步每日阅读的不错的前端资讯&lt;/strong&gt;。相信大家也有清晰地感受到，前端社区在诸多社区中可谓最为活跃的，所以，坚持筛选学习的内容是比较考验耐心，也是尤为重要的，相对 &lt;strong&gt;微信公众号&lt;/strong&gt;，&lt;strong&gt;twitter&lt;/strong&gt; 和 &lt;strong&gt;newsletter&lt;/strong&gt; 等方式，个人感觉 &lt;strong&gt;chrome 扩展&lt;/strong&gt; 也不失为一种友好的方式。&lt;/p&gt;
@@ -211,7 +211,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-a7385.png&quot;
+    href=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-5327c.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -219,7 +219,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -230,10 +230,10 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;debug&quot;
         title=&quot;&quot;
-        src=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-a7385.png&quot;
-        srcset=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-2dda0.png 165w,
-/static/debug-14fbcd7fb77e237bab71ce5458a173eb-a52e9.png 330w,
-/static/debug-14fbcd7fb77e237bab71ce5458a173eb-a7385.png 400w&quot;
+        src=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-5327c.png&quot;
+        srcset=&quot;/static/debug-14fbcd7fb77e237bab71ce5458a173eb-d22f0.png 165w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-33ae3.png 330w,
+/static/debug-14fbcd7fb77e237bab71ce5458a173eb-5327c.png 400w&quot;
         sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
       /&gt;
     &lt;/span&gt;
@@ -246,7 +246,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-8085d.png&quot;
+    href=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-383d5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -254,7 +254,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -265,11 +265,11 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;news&quot;
         title=&quot;&quot;
-        src=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-e1ac2.png&quot;
-        srcset=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-24265.png 165w,
-/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-07efd.png 330w,
-/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-e1ac2.png 660w,
-/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-8085d.png 678w&quot;
+        src=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-65bfc.png&quot;
+        srcset=&quot;/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-91730.png 165w,
+/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-5a599.png 330w,
+/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-65bfc.png 660w,
+/static/news-1fecfbdcaac66df77f3e513a9afb9e3d-383d5.png 678w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -298,7 +298,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/API-c35b793fa67380a56edba68e746ca472-02ff4.png&quot;
+    href=&quot;/static/API-c35b793fa67380a56edba68e746ca472-dd45d.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -306,7 +306,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -317,11 +317,11 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;API&quot;
         title=&quot;&quot;
-        src=&quot;/static/API-c35b793fa67380a56edba68e746ca472-e1ac2.png&quot;
-        srcset=&quot;/static/API-c35b793fa67380a56edba68e746ca472-24265.png 165w,
-/static/API-c35b793fa67380a56edba68e746ca472-07efd.png 330w,
-/static/API-c35b793fa67380a56edba68e746ca472-e1ac2.png 660w,
-/static/API-c35b793fa67380a56edba68e746ca472-02ff4.png 748w&quot;
+        src=&quot;/static/API-c35b793fa67380a56edba68e746ca472-65bfc.png&quot;
+        srcset=&quot;/static/API-c35b793fa67380a56edba68e746ca472-91730.png 165w,
+/static/API-c35b793fa67380a56edba68e746ca472-5a599.png 330w,
+/static/API-c35b793fa67380a56edba68e746ca472-65bfc.png 660w,
+/static/API-c35b793fa67380a56edba68e746ca472-dd45d.png 748w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -373,46 +373,16 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;li&gt;&lt;strong&gt;consume&lt;/strong&gt;：在 &lt;strong&gt;provider&lt;/strong&gt; 之后任何地方使用，并传递一个返回 &lt;strong&gt;JSX&lt;/strong&gt; 的函数（这有点像 &lt;strong&gt;render prop&lt;/strong&gt; 组件，但 &lt;strong&gt;consume&lt;/strong&gt; 不是组件）；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我对这个 &lt;strong&gt;API&lt;/strong&gt; 充满了期待，&lt;strong&gt;React&lt;/strong&gt; 团队也将会移除 &lt;strong&gt;context 是实验性 API&lt;/strong&gt; 的警告，因为它现在是框架 &lt;a href=&quot;https://twitter.com/acdlite/status/957445801302618112&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;一级棒的特性&lt;/a&gt;，这也意味着大家将不再那么担心使用 &lt;strong&gt;context&lt;/strong&gt; 来解决应用中 &lt;strong&gt;prop-drilling&lt;/strong&gt; 的问题了，对 &lt;strong&gt;Redux&lt;/strong&gt; 不再那么依赖，对 &lt;strong&gt;React&lt;/strong&gt; 也将更加喜欢。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/kentcdodds/status/911276059051438082&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;我最近在 twitter 看到的&lt;/a&gt;，大概意思是：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;大家不是很愿意保持使用提倡的 &lt;strong&gt;render&lt;/strong&gt; 方法，加重了 &lt;strong&gt;prop drilling&lt;/strong&gt; 问题，所以，最终想通过 &lt;strong&gt;redux&lt;/strong&gt; 来缓解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所以，我认为如果我们不过早或武断地去破坏 &lt;strong&gt;render&lt;/strong&gt; 方法，我们可能就不会那么痛苦，即便最终我们实在没有办法避免，我们也可以通过核心的 &lt;strong&gt;React API&lt;/strong&gt; 来解决。&lt;/p&gt;
+&lt;p&gt;这是我最近的推文：&lt;/p&gt;
+&lt;div class=&quot;twitter-content&quot;&gt;
+	&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;zh-cn&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;People&amp;#39;s fixation with keeping render methods small aggravates the &amp;quot;prop drilling problem&amp;quot; which makes folks want redux to help alleviate it&lt;/p&gt;&amp;mdash; Kent C. Dodds (@kentcdodds) &lt;a href=&quot;https://twitter.com/kentcdodds/status/911276059051438082?ref_src=twsrc%5Etfw&quot;&gt;2017年9月22日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;我认为如果我们不过早或武断地去破坏 &lt;strong&gt;render&lt;/strong&gt; 方法，我们可能就不会那么痛苦，即便最终我们实在没有办法避免，我们也可以通过核心的 &lt;strong&gt;React API&lt;/strong&gt; 来解决。&lt;/p&gt;
 &lt;h2 id=&quot;context-实践&quot;&gt;&lt;a href=&quot;#context-%E5%AE%9E%E8%B7%B5&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Context 实践&lt;/h2&gt;
 &lt;p&gt;我看到了一个关于 &lt;strong&gt;context API&lt;/strong&gt;（或普通的 &lt;strong&gt;render prop pattern&lt;/strong&gt;）的问题很多次，就是如何组合 &lt;strong&gt;providers&lt;/strong&gt; 和 &lt;strong&gt;consumers&lt;/strong&gt;，当在一个 &lt;strong&gt;render&lt;/strong&gt; 方法中把一堆 &lt;strong&gt;render prop&lt;/strong&gt; 组件放在一起时，就会像这样 &lt;a href=&quot;https://twitter.com/acdlite/status/955955121979969537&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;嵌套&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-677d6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 404px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 198.01980198019803%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAoCAYAAAD+MdrbAAAACXBIWXMAAAsSAAALEgHS3X78AAAElklEQVRIx51W2ZLiRhDky/3sR3+Rw/6BiVhmvevhktCF7gOpdYt0VgNj7QwzC9sRHYKmSWVV1rVQdYeKu+1GBH6Ef75+R5rkaJsetWrR1j06fu7bnmcd6rpF07RI4gyrlw2+f/sXbTtA8c4hTLG4AtY8KPISQRChKms0PGtUh6Qo4OQBgiJGdjyiqlqoqkGeHRETQEgovrji/0s+F4IsgE17ZlGENbJQoSyVZta0fGFbQ3E3LRnzTsc99CPGYcI0Tuc7xBCsV8COF2SVUYF4ayGLIg1wzxoI+g6w7YbLzyekQQjT2MOyHTiOS1YtXzig15vshkGfiS/bptGsK/pa0cf/A/IyTicN2fFP250Jy9xjvTEJ6sOwAtiOh912i/3eQhzHiKOYPg9QqRpXnB8BcQaUN6/XGxxcD6aXw/EiMt5hb/lYGR7SNP3B5H4Yb5g8AxRzNpsdrL0Nw7RgWxYi34fr+fAOAfyDj2N+RJQq5MWRL8g/Ynhe0zTBpe/Wqw1N3sKybKRhzJisL16+3KOLTtx9/yFD6Av6SVCPJovpJlmuL4yzJEVbKYrY6bun06QF+xRQbwkHnlkE2xkmbCpuk7VNQRIK4biuFkZEieL0Y5NfGV4VJ5Md2W23xkV5C2We6/AR18i+i+EctGFYrNdbhswOURhqc8+//1TlmclyewZeUk3TtLEjyyxOZi++Q5RbLGW5XoIVmcZMy/kap9MDJs++11VFhoZWP0sSqLJCwx0n2eeivGU3F8hkOkqeFxRmHEdMzGvFGnk7l98AzsFG/jFyD8ygLUyy7GeV6Ha1+YShhEZbNyysimmW6acE/qso96g8B5Ry5Xme9l11LLWp4zj8GsPrZ1WWMCRjmNeGwfKVFjq4m6a+XbF/5kNZlu1itVoR0MbLxmLWmFhvbbh+qnvSXSq/mk0WHauzFN+aVUeYiVAD+4p0zId9WBRnE6dhfN9THhVFnlK9pT4aDJkgjBByi/LnljH+gg/5TJgdMRtYTLAsL7TpUg8fjsPX4Ga4BCz/DsWRbuiStbxEOuZDuTwHTRjYW2bLgQVXqviKFd1hBtXt8LnKt7asnKZKG5UKLv502WLDtCTgnWFzrcqydV1kxZHqLV1xI+wY6MfyTV+WIec8ObxndGspdc7pkqUry3K20pKAM5PbXhJ8evdHyd+npycsn5+xXC7xZfkFz89fGTahBowpiM9+LU1KTK6lfEmlsF2HY1qlw0Cxf1SsJvJZdpZl9Fuut7Ap2ApaPYV1eteMRamTqp3IcsQi4ljxx++/4e+//sTy6zeyeGbbNFhITTyy3GRCkJ+wOKfVkc5WeuiRffWexJ2k1ekB4EXX9fA5ZviM/phTgcvAtRmwB59TK88lxgpOrg0Lg3bJxRXyXVwjTxFpmk46ZBdy8PLywpLERs5RLWJHk+lKBAnp/MPhoKcDyQw5s22b33lOMaS/OI6jz8QazbAm4J6xJIxEtXGcdIkaxhGPLgm1hYwRGePoyJiSeJKkT6mmPGUkFpfIpCCKyufp0ks+yqSFUBVfKMqfvwIf6bczuJxdv6dZ8a74vs2s/wBdnBerN1Q9oAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;practice&quot;
-        title=&quot;&quot;
-        src=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-677d6.png&quot;
-        srcset=&quot;/static/practice-10fcc983644e66d2d824bd1430d25227-07117.png 165w,
-/static/practice-10fcc983644e66d2d824bd1430d25227-066f7.png 330w,
-/static/practice-10fcc983644e66d2d824bd1430d25227-677d6.png 404w&quot;
-        sizes=&quot;(max-width: 404px) 100vw, 404px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;div class=&quot;twitter-content&quot;&gt;
+	&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot; data-lang=&quot;zh-cn&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I mean come on (screen shot of actual code I’m playing with right now) &lt;a href=&quot;https://t.co/Ucc8gaxPMp&quot;&gt;pic.twitter.com/Ucc8gaxPMp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andrew Clark (@acdlite) &lt;a href=&quot;https://twitter.com/acdlite/status/955955121979969537?ref_src=twsrc%5Etfw&quot;&gt;2018年1月24日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;p&gt;那么，我们可以做点什么来避免呢？其实，个人觉得没有那么糟糕，如果你觉得这样并不好，那么可以使用常规的 &lt;strong&gt;utility&lt;/strong&gt; 函数/组件来解决，下面是一个示例：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ThemeContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;light&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -464,39 +434,9 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h2&gt;
 &lt;p&gt;正如上面所说的，我对这个 &lt;strong&gt;API&lt;/strong&gt; 充满了期待。目前暂未发布，但应该会包含在下一个 &lt;strong&gt;minor&lt;/strong&gt; 版本中。不同担心，之前的 &lt;strong&gt;API&lt;/strong&gt; 会继续正常工作，直到下一个 &lt;strong&gt;major&lt;/strong&gt; 版本发布，所以，每个人都有时间迁移，而且不用过于担心，&lt;strong&gt;React&lt;/strong&gt; 团队在 &lt;strong&gt;Facebook&lt;/strong&gt; 有超过 &lt;strong&gt;50,000&lt;/strong&gt; 个 &lt;strong&gt;React components&lt;/strong&gt; 需要维护，所以，将来很有可能会发布一个 &lt;strong&gt;codemod&lt;/strong&gt; 去自动更新大多数人的代码（就像以往一样）。&lt;/p&gt;
 &lt;p&gt;最后再表达一下我对此的兴奋。&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-14afa.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 499px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 48.496993987975955%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgElEQVQoz5VSCU7DQAzMSxGP4FMI8RYKJTRn27SEXklz7GZztMlgu1SiUouEpZE3XnvWGdtaTKfIswymrmGMQVVVyPMcXdeBbRgGwTU7x/t+QKZPedbD3T2eH5/geD4c18Pr+B0voxG01heEt0AZaA8D/K8e/GlNbA9pmqHtDtBVjcrUcnGrq79MOtzsEmy2Cbbkl/FK/Gf8RbGddMm/zlIwapKFYyxL0zQCjjE6aojNchwHU9JxNpshCAIEYSgICRyfz+dwPY/uQsqZU2yGKFrA831MqJbvGJoeORG6LjzSb7VeEwkRRBGmRP42HgupT4+4pO1isRQSl/IjyvH9ALb9IXV7GupZIotftW1bCrmAE+M4hlIKSZKgKApBkqbIqPAc403g8+F4vBietd5sEa/W2CUp+Mza7bP8X8Pofw3QyvISSlcoSo1SafFFqUj8inQxMnVD4HPTtjdWB6ib051l6kaWulQVTc8Iadt24hnqhzgvFE2zubqbbJzb9z2+Aewl+vZT8zHkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;twiiter&quot;
-        title=&quot;&quot;
-        src=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-14afa.png&quot;
-        srcset=&quot;/static/twitter-140356a80193236669cce8fbf8bff474-3406a.png 165w,
-/static/twitter-140356a80193236669cce8fbf8bff474-366ac.png 330w,
-/static/twitter-140356a80193236669cce8fbf8bff474-14afa.png 499w&quot;
-        sizes=&quot;(max-width: 499px) 100vw, 499px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[使用 CSS 追踪用户]]></title><description><![CDATA[除了使用  JS  追踪用户，现在有人提出了还可以使用  CSS 进行网页追踪和分析 ，译者认为，这种方式更为  优雅 ，更为  简洁 ，且  不好屏蔽 ，值得尝试一波，了解更多，可查看  仓库地址  和  demo…]]></description><link>https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Fri, 19 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
+&lt;div class=&quot;twitter-content&quot;&gt;
+	&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot; data-lang=&quot;zh-cn&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;That&amp;#39;s one thing that excites me about the API improvement (in addition to other changes coming). So many new patterns will emerge out of this stuff. Ways of doing things we haven&amp;#39;t considered before!!&lt;/p&gt;&amp;mdash; Kent C. Dodds (@kentcdodds) &lt;a href=&quot;https://twitter.com/kentcdodds/status/956675313966239745?ref_src=twsrc%5Etfw&quot;&gt;2018年1月25日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[使用 CSS 追踪用户]]></title><description><![CDATA[除了使用  JS  追踪用户，现在有人提出了还可以使用  CSS 进行网页追踪和分析 ，译者认为，这种方式更为  优雅 ，更为  简洁 ，且  不好屏蔽 ，值得尝试一波，了解更多，可查看  仓库地址  和  demo…]]></description><link>https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://fengshangwuqi.github.io/2018-01-19-shi-yong-css-zhui-zong-yong-hu/</guid><dc:creator><![CDATA[枫上雾棋]]></dc:creator><pubDate>Fri, 19 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;original-info&quot;&gt;
   &lt;div className=&quot;original-address&quot;&gt;
     原文地址：
     &lt;a
@@ -634,7 +574,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-a6b9c.png&quot;
+    href=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-764da.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -642,7 +582,7 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 186px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 186px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -653,9 +593,9 @@ chrome&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;runtime&lt;s
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;dialog&quot;
         title=&quot;&quot;
-        src=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-a6b9c.png&quot;
-        srcset=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-b8c1b.png 165w,
-/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-a6b9c.png 186w&quot;
+        src=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-764da.png&quot;
+        srcset=&quot;/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-8c7cc.png 165w,
+/static/dialog-e8ef25dd6a89db40163649ea6bac1edc-764da.png 186w&quot;
         sizes=&quot;(max-width: 186px) 100vw, 186px&quot;
       /&gt;
     &lt;/span&gt;
@@ -683,7 +623,7 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-93592.png&quot;
+    href=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-f0321.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -691,7 +631,7 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -702,11 +642,11 @@ modal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;can i use&quot;
         title=&quot;&quot;
-        src=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-e1ac2.png&quot;
-        srcset=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-24265.png 165w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-07efd.png 330w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-e1ac2.png 660w,
-/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-93592.png 800w&quot;
+        src=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-65bfc.png&quot;
+        srcset=&quot;/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-91730.png 165w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-5a599.png 330w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-65bfc.png 660w,
+/static/can-i-use-ec483de2a2acfe37e18490b054b509f5-f0321.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1125,7 +1065,7 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;junegunn/goyo.vim&apos;&lt
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-6ead9.png&quot;
+    href=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-2c57c.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1133,7 +1073,7 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;junegunn/goyo.vim&apos;&lt
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1144,11 +1084,11 @@ Plug &lt;span class=&quot;token string&quot;&gt;&apos;junegunn/goyo.vim&apos;&lt
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;css color&quot;
         title=&quot;&quot;
-        src=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-e1ac2.png&quot;
-        srcset=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-24265.png 165w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-07efd.png 330w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-e1ac2.png 660w,
-/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-6ead9.png 684w&quot;
+        src=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-65bfc.png&quot;
+        srcset=&quot;/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-91730.png 165w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-5a599.png 330w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-65bfc.png 660w,
+/static/css-color-1274d0167bcb9ac2b5a300591f93bc48-2c57c.png 684w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2174,7 +2114,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-170a8.png&quot;
+    href=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-6979e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2182,7 +2122,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 166px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 166px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2193,9 +2133,9 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-170a8.png&quot;
-        srcset=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-a4f75.png 165w,
-/static/logo-0a4c41676c8226a358b57e7f40fa84e5-170a8.png 166w&quot;
+        src=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-6979e.png&quot;
+        srcset=&quot;/static/logo-0a4c41676c8226a358b57e7f40fa84e5-7bac7.png 165w,
+/static/logo-0a4c41676c8226a358b57e7f40fa84e5-6979e.png 166w&quot;
         sizes=&quot;(max-width: 166px) 100vw, 166px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2241,7 +2181,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-b020a.png&quot;
+    href=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-b6913.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2249,7 +2189,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2260,11 +2200,11 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;logo result&quot;
         title=&quot;&quot;
-        src=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-e1ac2.png&quot;
-        srcset=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-24265.png 165w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-07efd.png 330w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-e1ac2.png 660w,
-/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-b020a.png 697w&quot;
+        src=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-65bfc.png&quot;
+        srcset=&quot;/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-91730.png 165w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-5a599.png 330w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-65bfc.png 660w,
+/static/logoResult-e0509984455c5b0d81e2fe06baa7bfd2-b6913.png 697w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2315,7 +2255,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-776d1.png&quot;
+    href=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-cdaea.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2323,7 +2263,7 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2334,11 +2274,11 @@ map &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;border&quot;
         title=&quot;&quot;
-        src=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-e1ac2.png&quot;
-        srcset=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-24265.png 165w,
-/static/border-f6345977aa3bba161a3f934867ceed30-07efd.png 330w,
-/static/border-f6345977aa3bba161a3f934867ceed30-e1ac2.png 660w,
-/static/border-f6345977aa3bba161a3f934867ceed30-776d1.png 698w&quot;
+        src=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-65bfc.png&quot;
+        srcset=&quot;/static/border-f6345977aa3bba161a3f934867ceed30-91730.png 165w,
+/static/border-f6345977aa3bba161a3f934867ceed30-5a599.png 330w,
+/static/border-f6345977aa3bba161a3f934867ceed30-65bfc.png 660w,
+/static/border-f6345977aa3bba161a3f934867ceed30-cdaea.png 698w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2553,7 +2493,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-898fb.png&quot;
+    href=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-9cdb7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2561,7 +2501,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 249px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 249px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2572,9 +2512,9 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;目录&quot;
         title=&quot;&quot;
-        src=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-898fb.png&quot;
-        srcset=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-31ddf.png 165w,
-/static/content-4f61167291d1531dbd02246347cad8f8-898fb.png 249w&quot;
+        src=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-9cdb7.png&quot;
+        srcset=&quot;/static/content-4f61167291d1531dbd02246347cad8f8-0bcf0.png 165w,
+/static/content-4f61167291d1531dbd02246347cad8f8-9cdb7.png 249w&quot;
         sizes=&quot;(max-width: 249px) 100vw, 249px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2594,7 +2534,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-a314b.png&quot;
+    href=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-74f9e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2602,7 +2542,7 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 344px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 344px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2613,10 +2553,10 @@ colorInput&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;自动补全&quot;
         title=&quot;&quot;
-        src=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-a314b.png&quot;
-        srcset=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-d3e9d.png 165w,
-/static/debug-3db533b817c580b060a6bb0e02dfebe0-d629c.png 330w,
-/static/debug-3db533b817c580b060a6bb0e02dfebe0-a314b.png 344w&quot;
+        src=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-74f9e.png&quot;
+        srcset=&quot;/static/debug-3db533b817c580b060a6bb0e02dfebe0-2a2f8.png 165w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-b3f0a.png 330w,
+/static/debug-3db533b817c580b060a6bb0e02dfebe0-74f9e.png 344w&quot;
         sizes=&quot;(max-width: 344px) 100vw, 344px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2810,7 +2750,7 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-1c56a.png&quot;
+    href=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-a36ab.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2818,7 +2758,7 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2829,11 +2769,11 @@ $ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s 源文件或�
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;PS1&quot;
         title=&quot;&quot;
-        src=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-e1ac2.png&quot;
-        srcset=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-24265.png 165w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-07efd.png 330w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-e1ac2.png 660w,
-/static/PS1-9cd627a143f92ccd410b42b45959413e-1c56a.png 721w&quot;
+        src=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-65bfc.png&quot;
+        srcset=&quot;/static/PS1-9cd627a143f92ccd410b42b45959413e-91730.png 165w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-5a599.png 330w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-65bfc.png 660w,
+/static/PS1-9cd627a143f92ccd410b42b45959413e-a36ab.png 721w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2863,7 +2803,7 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-93592.png&quot;
+    href=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-f0321.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2871,7 +2811,7 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2882,11 +2822,11 @@ $ vim ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;tmux&quot;
         title=&quot;&quot;
-        src=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-e1ac2.png&quot;
-        srcset=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-24265.png 165w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-07efd.png 330w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-e1ac2.png 660w,
-/static/tmux-3861fd057f8eab4da618c0035f2ac979-93592.png 800w&quot;
+        src=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-65bfc.png&quot;
+        srcset=&quot;/static/tmux-3861fd057f8eab4da618c0035f2ac979-91730.png 165w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-5a599.png 330w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-65bfc.png 660w,
+/static/tmux-3861fd057f8eab4da618c0035f2ac979-f0321.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3173,7 +3113,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/add-75cf59013870fb00117ce367878d73aa-9cd68.png&quot;
+    href=&quot;/static/add-75cf59013870fb00117ce367878d73aa-e74b3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3181,7 +3121,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 580px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 580px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3192,10 +3132,10 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;add.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/add-75cf59013870fb00117ce367878d73aa-9cd68.png&quot;
-        srcset=&quot;/static/add-75cf59013870fb00117ce367878d73aa-817bd.png 165w,
-/static/add-75cf59013870fb00117ce367878d73aa-ba0dd.png 330w,
-/static/add-75cf59013870fb00117ce367878d73aa-9cd68.png 580w&quot;
+        src=&quot;/static/add-75cf59013870fb00117ce367878d73aa-e74b3.png&quot;
+        srcset=&quot;/static/add-75cf59013870fb00117ce367878d73aa-28843.png 165w,
+/static/add-75cf59013870fb00117ce367878d73aa-e843f.png 330w,
+/static/add-75cf59013870fb00117ce367878d73aa-e74b3.png 580w&quot;
         sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3207,7 +3147,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-93592.png&quot;
+    href=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-f0321.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3215,7 +3155,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3226,11 +3166,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;license.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-e1ac2.png&quot;
-        srcset=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-24265.png 165w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-07efd.png 330w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-e1ac2.png 660w,
-/static/license-7b870cde782d4813f4b1be6a6447bb4f-93592.png 800w&quot;
+        src=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-65bfc.png&quot;
+        srcset=&quot;/static/license-7b870cde782d4813f4b1be6a6447bb4f-91730.png 165w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-5a599.png 330w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-65bfc.png 660w,
+/static/license-7b870cde782d4813f4b1be6a6447bb4f-f0321.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3252,7 +3192,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-93592.png&quot;
+    href=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-f0321.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3260,7 +3200,7 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3271,11 +3211,11 @@ default.yml&lt;/code&gt;&lt;/pre&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;io&quot;
         title=&quot;&quot;
-        src=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-e1ac2.png&quot;
-        srcset=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-24265.png 165w,
-/static/io-8bab443e05e779a4f274e2a489534f16-07efd.png 330w,
-/static/io-8bab443e05e779a4f274e2a489534f16-e1ac2.png 660w,
-/static/io-8bab443e05e779a4f274e2a489534f16-93592.png 800w&quot;
+        src=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-65bfc.png&quot;
+        srcset=&quot;/static/io-8bab443e05e779a4f274e2a489534f16-91730.png 165w,
+/static/io-8bab443e05e779a4f274e2a489534f16-5a599.png 330w,
+/static/io-8bab443e05e779a4f274e2a489534f16-65bfc.png 660w,
+/static/io-8bab443e05e779a4f274e2a489534f16-f0321.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3298,7 +3238,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-93592.png&quot;
+    href=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-f0321.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3306,7 +3246,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 660px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3317,11 +3257,11 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gists&quot;
         title=&quot;&quot;
-        src=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-e1ac2.png&quot;
-        srcset=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-24265.png 165w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-07efd.png 330w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-e1ac2.png 660w,
-/static/gists-2a54c0203f5316628dafa416641dacc0-93592.png 800w&quot;
+        src=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-65bfc.png&quot;
+        srcset=&quot;/static/gists-2a54c0203f5316628dafa416641dacc0-91730.png 165w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-5a599.png 330w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-65bfc.png 660w,
+/static/gists-2a54c0203f5316628dafa416641dacc0-f0321.png 800w&quot;
         sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3336,7 +3276,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-58ca5.png&quot;
+    href=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-63976.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3344,7 +3284,7 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 40px 0;; max-width: 295px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 30px 0;; max-width: 295px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3355,9 +3295,9 @@ Location: https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;..&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;keyboard&quot;
         title=&quot;&quot;
-        src=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-58ca5.png&quot;
-        srcset=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-8ac07.png 165w,
-/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-58ca5.png 295w&quot;
+        src=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-63976.png&quot;
+        srcset=&quot;/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-36a23.png 165w,
+/static/keyboard-2be5d6ea2cde8de3f68145fe8bfe8ed7-63976.png 295w&quot;
         sizes=&quot;(max-width: 295px) 100vw, 295px&quot;
       /&gt;
     &lt;/span&gt;
